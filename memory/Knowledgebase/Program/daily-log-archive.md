@@ -32,3 +32,6 @@ QMD re-index and embedding refresh maintenance performed. 4 collections scanned 
 
 ## 2026-05-06
 Scheduled daily maintenance (multiple runs). Compacted 2026-04-29 log into archive. MEMORY.md still placeholder. QMD text re-index successful (4 collections, 38 docs). SentenceTransformer embeddings configured.
+ 
+## 2026-05-07 
+Scheduled daily maintenance (two runs: ~01:01 and ~07:01 MDT). Compacted 2026-04-30 log into archive. MEMORY.md still placeholder. QMD text re-index completed (38 docs, 4 collections). SentenceTransformer embeddings refreshed (40/40 chunks, 38 docs). 

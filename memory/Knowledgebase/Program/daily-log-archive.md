@@ -4,7 +4,7 @@ Compacted summaries of daily logs older than 7 days.
 
 ---
 
-*Last compaction: 2026-05-16 (daily-memory-maintenance: compacted 2026-05-08). Logs older than 7 days are summarized below.*
+*Last compaction: 2026-05-18 (daily-memory-maintenance: compacted 2026-05-10). Logs older than 7 days are summarized below.*
 
 ## 2026-04-29
 Initial daily memory maintenance run. QMD re-index and SentenceTransformer embedding refresh performed (40/40 chunks, 38 docs). Fixed missing sentence-transformers pip dependency. QMD CLI wrapper broken on Windows (/bin/sh reference) - workaround used.
@@ -38,3 +38,9 @@ Scheduled daily maintenance (two runs: ~01:01 and ~07:01 MDT). Compacted 2026-04
  
 ## 2026-05-08
 Scheduled daily maintenance (~01:01 MDT). Compacted 2026-05-01 log into archive. MEMORY.md still placeholder. QMD text re-index completed (4 collections, knowledgebase updated). SentenceTransformer embeddings not regenerated (provider != azure_openai).
+
+## 2026-05-09
+Scheduled daily maintenance (~01:00 MDT). Compacted 2026-05-02 log into archive. MEMORY.md still placeholder. QMD text re-index completed (4 collections, knowledgebase updated). SentenceTransformer embeddings not regenerated (provider != azure_openai).
+
+## 2026-05-10
+Scheduled daily maintenance (~01:00 MDT). Compacted 2026-05-03 log into archive. MEMORY.md still placeholder. QMD text re-index completed (38 docs, 4 collections). SentenceTransformer embeddings regenerated (40/40 chunks, 38 docs). Manual QMD re-index also performed at ~22:00 MDT.

@@ -44,3 +44,5 @@ Scheduled daily maintenance (~01:00 MDT). Compacted 2026-05-02 log into archive.
 
 ## 2026-05-10
 Scheduled daily maintenance (~01:00 MDT). Compacted 2026-05-03 log into archive. MEMORY.md still placeholder. QMD text re-index completed (38 docs, 4 collections). SentenceTransformer embeddings regenerated (40/40 chunks, 38 docs). Manual QMD re-index also performed at ~22:00 MDT.
+## 2026-05-11
+Scheduled daily maintenance (~01:01 MDT). No logs older than 7 days to compact. MEMORY.md still placeholder. QMD re-index triggered via memory-flush.ps1. Maintenance complete.

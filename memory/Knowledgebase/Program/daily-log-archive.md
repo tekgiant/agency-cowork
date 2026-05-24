@@ -4,7 +4,7 @@ Compacted summaries of daily logs older than 7 days.
 
 ---
 
-*Last compaction: 2026-05-22 (daily-memory-maintenance: compacted 2026-05-15). Logs older than 7 days are summarized below.*
+*Last compaction: 2026-05-24 (daily-memory-maintenance: compacted 2026-05-17). Logs older than 7 days are summarized below.*
 
 ## 2026-04-29
 Initial daily memory maintenance run. QMD re-index and SentenceTransformer embedding refresh performed (40/40 chunks, 38 docs). Fixed missing sentence-transformers pip dependency.
@@ -59,3 +59,6 @@ Scheduled daily maintenance. No logs older than 7 days to compact. MEMORY.md sti
   
 ## 2026-05-16  
 Scheduled daily maintenance. Compacted 2026-05-08 log into archive. MEMORY.md still placeholder. QMD text re-index completed (4 collections, 38 docs). SentenceTransformer embeddings refreshed. 
+ 
+## 2026-05-17 
+Scheduled daily maintenance. Compacted 2026-05-09 log into archive. MEMORY.md still placeholder. QMD text re-index completed (4 collections, 38 docs). SentenceTransformer embeddings refreshed (40/40 chunks, 38 docs). Evening re-index also performed. 

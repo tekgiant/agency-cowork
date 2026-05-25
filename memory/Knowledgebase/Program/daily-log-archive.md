@@ -4,7 +4,7 @@ Compacted summaries of daily logs older than 7 days.
 
 ---
 
-*Last compaction: 2026-05-24 (daily-memory-maintenance: compacted 2026-05-17). Logs older than 7 days are summarized below.*
+*Last compaction: 2026-05-24 (daily-memory-maintenance). No new logs to compact (2026-05-17 already archived). Logs older than 7 days are summarized below.*
 
 ## 2026-04-29
 Initial daily memory maintenance run. QMD re-index and SentenceTransformer embedding refresh performed (40/40 chunks, 38 docs). Fixed missing sentence-transformers pip dependency.

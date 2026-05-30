@@ -76,3 +76,9 @@ Scheduled daily maintenance. Compacted 2026-05-10 log into archive. MEMORY.md st
 Scheduled daily maintenance. Compacted 2026-05-12 into archive. MEMORY.md still placeholder. QMD text re-index completed (4 collections, 38 docs). SentenceTransformer embeddings regenerated (40/40 chunks, 38 docs).
 ## 2026-05-21
 Scheduled daily maintenance. Compacted 2026-05-13 log into archive. MEMORY.md still placeholder. QMD text re-index completed (4 collections, 38 docs). Embeddings not enabled (provider != azure_openai).
+  
+## 2026-05-22  
+Scheduled daily maintenance (two runs). Compacted 2026-05-15 log into archive. MEMORY.md still placeholder. QMD text re-index completed (4 collections, 38 docs). Azure embeddings not enabled - skipped. 
+
+## 2026-05-23
+Scheduled daily maintenance (two runs). Compacted 2026-05-16 log into archive. MEMORY.md still placeholder. QMD re-index completed (4 collections, 38 docs). Azure embeddings not enabled - skipped.

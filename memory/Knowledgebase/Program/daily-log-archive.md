@@ -4,7 +4,7 @@ Compacted summaries of daily logs older than 7 days.
 
 ---
 
-*Last compaction: 2026-05-27 (daily-memory-maintenance). Compacted 2026-05-20. Logs older than 7 days are summarized below.*
+*Last compaction: 2026-05-31 (daily-memory-maintenance). Compacted 2026-05-24. Logs older than 7 days are summarized below.*
 
 ## 2026-04-29
 Initial daily memory maintenance run. QMD re-index and SentenceTransformer embedding refresh performed (40/40 chunks, 38 docs). Fixed missing sentence-transformers pip dependency.
@@ -82,3 +82,6 @@ Scheduled daily maintenance (two runs). Compacted 2026-05-15 log into archive. M
 
 ## 2026-05-23
 Scheduled daily maintenance (two runs). Compacted 2026-05-16 log into archive. MEMORY.md still placeholder. QMD re-index completed (4 collections, 38 docs). Azure embeddings not enabled - skipped.
+
+## 2026-05-24
+Scheduled daily maintenance (4 runs). Compacted 2026-05-17 log in 07:04 run. QMD text re-index completed (4 collections, 38 docs). Manual evening re-index with full embedding refresh (bge-small-en-v1.5, 40/40 chunks). MEMORY.md still placeholder.

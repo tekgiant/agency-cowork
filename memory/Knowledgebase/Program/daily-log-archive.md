@@ -85,3 +85,7 @@ Scheduled daily maintenance (two runs). Compacted 2026-05-16 log into archive. M
 
 ## 2026-05-24
 Scheduled daily maintenance (4 runs). Compacted 2026-05-17 log in 07:04 run. QMD text re-index completed (4 collections, 38 docs). Manual evening re-index with full embedding refresh (bge-small-en-v1.5, 40/40 chunks). MEMORY.md still placeholder.
+
+
+## 2026-05-25
+Scheduled daily maintenance (4 runs). QMD re-index completed (4 collections, 38 docs). Full BGE embedding refresh (40/40 chunks). MEMORY.md still placeholder. No logs older than 7 days to compact at that time.

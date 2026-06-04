@@ -89,3 +89,7 @@ Scheduled daily maintenance (4 runs). Compacted 2026-05-17 log in 07:04 run. QMD
 
 ## 2026-05-25
 Scheduled daily maintenance (4 runs). QMD re-index completed (4 collections, 38 docs). Full BGE embedding refresh (40/40 chunks). MEMORY.md still placeholder. No logs older than 7 days to compact at that time.
+
+## 2026-06-04
+Daily memory maintenance completed on 2026-06-04. Older logs were reviewed and summarized into the archive.
+QMD text re-index ran successfully; Azure embeddings remain disabled in this environment.

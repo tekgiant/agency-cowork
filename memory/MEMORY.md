@@ -1,9 +1,9 @@
 # Agency Cowork Memory
 
 ## Active Programs
-- Memory maintenance and QMD index hygiene remain the only active program facts documented in this week's logs (current through 2026-06-02).
+- Memory maintenance and QMD index hygiene remain the only active program facts documented in this week's logs (current through 2026-06-04).
 - Milestones reached this week: daily maintenance completed, QMD text re-index refreshed, and local SentenceTransformer embeddings were verified/updated.
-- No new program milestones or dates beyond the maintenance cycle were recorded in the weekly logs.
+- The 2026-06-04 maintenance run confirmed the QMD text index is healthy and Azure embeddings remain disabled in this environment.
 
 ## Key Contacts
 - No new contacts were documented in this week's daily logs.

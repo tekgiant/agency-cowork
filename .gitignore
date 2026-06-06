@@ -24,6 +24,7 @@ venv/
 # Teams skill cache (generated at runtime, contains personal Teams data)
 skills/teams/cache/
 skills/teams/logs/
+skills/teams/monitor/
 skills/teams/monitor/monitor.pid
 skills/teams/monitor/monitor-config.json
 skills/teams/monitor/monitor-config.json.migrated

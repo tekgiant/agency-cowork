@@ -93,3 +93,6 @@ Scheduled daily maintenance (4 runs). QMD re-index completed (4 collections, 38 
 ## 2026-06-04
 Daily memory maintenance completed on 2026-06-04. Older logs were reviewed and summarized into the archive.
 QMD text re-index ran successfully; Azure embeddings remain disabled in this environment.
+
+## 2026-06-06
+Daily memory maintenance completed on 2026-06-06. Older logs from 2026-05-26 through 2026-05-29 were reviewed for the 7-day compaction rule. QMD text re-index ran successfully; Azure embeddings remain disabled in this environment.

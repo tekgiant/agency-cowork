@@ -1,19 +1,17 @@
 # Agency Cowork Memory
 
 ## Active Programs
-- Memory maintenance and QMD hygiene remain the only active program facts documented in the latest weekly logs (verified through 2026-06-04).
-- Milestones reached: daily maintenance completed on 2026-06-04, QMD text re-index refreshed successfully, and local SentenceTransformer/BGE embeddings were verified.
-- No additional program milestones or dates were recorded beyond the maintenance cycle.
+- Memory maintenance, QMD index hygiene, and 7-day log compaction were refreshed on 2026-06-06.
+- Local SentenceTransformer/BGE embeddings are the active path; Azure OpenAI embeddings remain disabled in this environment.
+- No additional permanent milestones were added beyond the maintenance cycle.
 
 ## Key Contacts
-- No new contacts were documented in the latest weekly logs.
+- No contacts are currently documented in memory.
 - Current contact roster remains empty until a named person is added to memory.
 
 ## Tooling and Integrations
-- QMD memory index currently covers the memory-root, knowledgebase, weekly-reports, and skills-docs collections.
-- Local SentenceTransformer/BGE embeddings are the active embedding path; Azure OpenAI embeddings remain disabled in this environment.
-- Daily maintenance uses memory-flush.ps1 for QMD re-index and embedding refresh.
+- QMD collections currently indexed: memory-root, knowledgebase, weekly-reports, and skills-docs.
+- Daily maintenance uses memory-flush.ps1 for QMD re-index; local embeddings remain the configured path.
 
 ## Notes
-- This file is intentionally concise and limited to stable, long-lived facts.
-- Temporary or episodic details belong in memory/DailyLogs/.
+- Stable facts belong here; temporary or episodic details belong in memory/DailyLogs/.

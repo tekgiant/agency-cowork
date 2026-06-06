@@ -1,0 +1,8 @@
+﻿{
+  "name": "svg-to-ppt",
+  "bundled": true,
+  "version": "1.0.3",
+  "description": "Create SVG diagrams that convert to editable PowerPoint shapes",
+  "userDataPaths": [],
+  "userConfigPaths": []
+}

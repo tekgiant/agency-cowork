@@ -1,0 +1,8 @@
+﻿{
+  "name": "meeting-summary",
+  "bundled": true,
+  "version": "1.0.3",
+  "description": "Generate executive meeting summaries from Teams recaps",
+  "userDataPaths": [],
+  "userConfigPaths": []
+}

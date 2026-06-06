@@ -1,0 +1,8 @@
+﻿{
+  "name": "weekly-report",
+  "bundled": true,
+  "version": "1.0.3",
+  "description": "Generate weekly status reports for programs",
+  "userDataPaths": [],
+  "userConfigPaths": []
+}

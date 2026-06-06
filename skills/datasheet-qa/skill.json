@@ -1,0 +1,8 @@
+﻿{
+  "name": "datasheet-qa",
+  "bundled": true,
+  "version": "1.0.3",
+  "description": "QA and analysis of datasheets and specifications",
+  "userDataPaths": [],
+  "userConfigPaths": []
+}

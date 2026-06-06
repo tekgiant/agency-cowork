@@ -1,0 +1,8 @@
+﻿{
+  "name": "d365-expense",
+  "bundled": true,
+  "version": "1.0.3",
+  "description": "Dynamics 365 expense report management",
+  "userDataPaths": [],
+  "userConfigPaths": []
+}

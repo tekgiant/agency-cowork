@@ -1,0 +1,79 @@
+{
+  "version": "1.1.0",
+  "description": "Default triage rules template — copy to ~/.agency-cowork/triage-profile.json and customize.",
+
+  "user": {
+    "email": "",
+    "alias": "",
+    "display_name": ""
+  },
+
+  "vip_contacts": [],
+
+  "tier1_contacts": [],
+
+  "tier2_patterns": {
+    "to_cc": [],
+    "subjects": []
+  },
+
+  "noise_filters": {
+    "senders": [
+      "notifications@github.com",
+      "noreply@github.com",
+      "noreply@email.teams.microsoft.com",
+      "no-reply@sharepointonline.com",
+      "noreply@planner.office365.com",
+      "microsoftplanner@microsoft.com",
+      "o365mc@microsoft.com",
+      "noreply@microsoft.com",
+      "akanotif@microsoft.com",
+      "spacesa@microsoft.com",
+      "reply@et.oreilly.com"
+    ],
+    "domains": [
+      "headspace.com",
+      "getabstract.com",
+      "linkedin.com",
+      "glassdoor.com",
+      "engage.mail.microsoft",
+      "email.ticketsatwork.com",
+      "email.businessinsider.com",
+      "notifications.huggingface.co"
+    ],
+    "subjects": [
+      "^\\[aka\\]",
+      "^Redirection (Notification|Update)",
+      "^Action required: Review .* link",
+      "^Your daily digest",
+      "^Daily Briefing",
+      "^Microsoft Viva",
+      "^You've joined the .* group$",
+      "^Microsoft Daily Digest",
+      "^Neurodiversity|^Global Benefits"
+    ]
+  },
+
+  "mention_detection": {
+    "enabled": true,
+    "notes": "Auto-configured from user.display_name and user.alias during onboarding"
+  },
+
+  "preferences": {
+    "schedule_cron": "*/15 8-18 * * 1-5",
+    "vip_watchdog_cron": "*/5 8-18 * * 1-5",
+    "draft_mode": "tier1_only",
+    "todo_enabled": true,
+    "todo_folder": "Email Triage",
+    "teams_summary": true,
+    "safety_net_hours": 24,
+    "direct_to_priority": true,
+    "categories": {
+      "urgent": "Urgent",
+      "needs_response": "Needs Response",
+      "fyi": "FYI",
+      "archive": "Auto-Archived",
+      "noise": "Noise"
+    }
+  }
+}

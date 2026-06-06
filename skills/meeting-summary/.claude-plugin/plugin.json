@@ -1,0 +1,17 @@
+{
+  "version": "1.0.0",
+  "keywords": [
+    "meeting",
+    "summary",
+    "notes",
+    "recap",
+    "transcript",
+    "action items"
+  ],
+  "description": "Generate executive meeting summaries from Teams meeting recaps and transcripts",
+  "author": {
+    "email": "yyou@microsoft.com, nikhilkaul@microsoft.com",
+    "name": "Yang You, Nikhil Kaul"
+  },
+  "name": "meeting-summary"
+}

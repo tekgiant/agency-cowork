@@ -1,0 +1,17 @@
+{
+  "name": "svg-to-ppt",
+  "description": "Create SVG diagrams that convert cleanly into editable PowerPoint shapes",
+  "version": "1.0.0",
+  "author": {
+    "name": "Yang You, Nikhil Kaul",
+    "email": "yyou@microsoft.com, nikhilkaul@microsoft.com"
+  },
+  "keywords": [
+    "svg",
+    "powerpoint",
+    "ppt",
+    "diagram",
+    "convert",
+    "shapes"
+  ]
+}

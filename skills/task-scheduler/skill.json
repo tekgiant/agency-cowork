@@ -1,0 +1,11 @@
+﻿{
+  "name": "task-scheduler",
+  "bundled": true,
+  "version": "1.0.3",
+  "description": "Schedule one-time and recurring tasks",
+  "userDataPaths": [
+    "tasks",
+    "logs"
+  ],
+  "userConfigPaths": []
+}

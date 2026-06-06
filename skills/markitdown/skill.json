@@ -1,0 +1,8 @@
+﻿{
+  "name": "markitdown",
+  "bundled": true,
+  "version": "1.0.3",
+  "description": "Convert documents to markdown for the Knowledgebase",
+  "userDataPaths": [],
+  "userConfigPaths": []
+}

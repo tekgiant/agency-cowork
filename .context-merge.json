@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$comment": "Section classification for context file merge during upgrades. The post-upgrade agent reads this to know which sections to update from .example (framework) vs preserve (user customizations).",
+  "CLAUDE.md": {
+    "source": "CLAUDE.md.example",
+    "sections": {
+      "Identity": "user",
+      "Communication Principles": "framework",
+      "Domain Knowledge": "user",
+      "Visual Brand": "framework",
+      "Critical Warnings": "framework",
+      "OneDrive Upload": "framework",
+      "OneDrive Upload — All File Outputs": "framework",
+      "Lessons Learned & Regression Testing": "framework",
+      "Metrics & Integrity": "user"
+    },
+    "default": "framework"
+  },
+  "AGENTS.md": {
+    "source": "AGENTS.md.example",
+    "sections": {
+      "Identity": "framework",
+      "Context Gathering": "framework",
+      "Memory & Knowledge Management": "framework",
+      "Security": "framework",
+      "Skills": "framework",
+      "Design System": "framework",
+      "Working Preferences": "user"
+    },
+    "default": "framework"
+  }
+}

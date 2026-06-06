@@ -1,0 +1,8 @@
+﻿{
+  "name": "powerpoint",
+  "bundled": true,
+  "version": "1.0.3",
+  "description": "Create, inspect, and edit PowerPoint presentations",
+  "userDataPaths": [],
+  "userConfigPaths": []
+}

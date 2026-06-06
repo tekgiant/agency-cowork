@@ -1,0 +1,8 @@
+{
+  "name": "design-system",
+  "bundled": true,
+  "version": "1.0.0",
+  "description": "Guided interview to create and manage DESIGN.md brand identity",
+  "userDataPaths": [],
+  "userConfigPaths": []
+}

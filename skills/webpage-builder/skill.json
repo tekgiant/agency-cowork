@@ -1,0 +1,8 @@
+﻿{
+  "name": "webpage-builder",
+  "bundled": true,
+  "version": "1.0.3",
+  "description": "Cinematic landing page builder with React, GSAP, and Tailwind",
+  "userDataPaths": [],
+  "userConfigPaths": []
+}

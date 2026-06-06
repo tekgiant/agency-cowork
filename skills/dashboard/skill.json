@@ -1,0 +1,6 @@
+{
+  "name": "dashboard",
+  "version": "0.1.0",
+  "bundled": true,
+  "description": "Interactive, live-updating knowledgebase dashboard embedded in the Electron app. Dynamically renders KB content, GTD data, and provides AI action controls."
+}

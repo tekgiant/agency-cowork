@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "keywords": [
+    "memory",
+    "search",
+    "knowledgebase",
+    "recall",
+    "notes"
+  ],
+  "description": "Search knowledgebase, daily logs, and memory using semantic and keyword search",
+  "author": {
+    "email": "yyou@microsoft.com, nikhilkaul@microsoft.com",
+    "name": "Yang You, Nikhil Kaul"
+  },
+  "name": "qmd-memory"
+}

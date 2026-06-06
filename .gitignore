@@ -1,0 +1,78 @@
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Memory (personal data stored in separate repo — see agentconfig.json memory.repo)
+memory/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+*.egg-info/
+
+# IDE
+.vscode/
+!.vscode/mcp.json
+.idea/
+*.swp
+*.swo
+
+# Teams skill cache (generated at runtime, contains personal Teams data)
+skills/teams/cache/
+skills/teams/logs/
+skills/teams/monitor/monitor.pid
+skills/teams/monitor/monitor-config.json
+skills/teams/monitor/monitor-config.json.migrated
+skills/teams/monitor/dispatch-queue.json
+skills/teams/body.md
+
+# Environment
+.env
+.env.local
+
+# QMD Azure embeddings cache
+skills/qmd-memory/cache/
+
+# Task scheduler runtime files (machine-specific paths and state)
+skills/task-scheduler/tasks/
+skills/task-scheduler/logs/
+skills/task-scheduler/scheduler.pid
+
+# Org-specific setup skills (cloned from private repos — see README)
+skills/ahsi-setup/
+
+# Node modules (pptxGenJS and other local skill deps)
+node_modules/
+
+output/
+
+# GGUF embedding models (binary, download separately)
+skills/qmd-memory/models/
+
+# Desktop UI (Electron app build artifacts)
+ui/node_modules/
+ui/dist/
+ui/dist-ssr/
+ui/release/
+ui/release-*/
+
+.update-backup-*/
+.onedrive-migration-backup-*/
+
+# Update-preserve manifest (org-specific — never overwrite from upstream)
+.update-preserve
+
+# Per-folder version stamp (written by the desktop app during setup/update)
+agencycowork.json
+
+# Personal documents and notes (user-local, not part of the project)
+Exec Demo Video.md
+WeeklyReports/
+outputs/
+
+# Obsidian vault config (user-local)
+.obsidian/

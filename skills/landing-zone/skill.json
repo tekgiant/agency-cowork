@@ -1,0 +1,10 @@
+﻿{
+  "name": "landing-zone",
+  "bundled": true,
+  "version": "1.0.3",
+  "description": "Query, analyze, and manage ADO Landing Zone requirements",
+  "userDataPaths": [
+    "models"
+  ],
+  "userConfigPaths": []
+}

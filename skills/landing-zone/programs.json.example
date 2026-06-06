@@ -1,0 +1,12 @@
+{
+    "my-program": {
+        "org": "MyOrg",
+        "project": "MyProject",
+        "query_id": "00000000-0000-0000-0000-000000000000"
+    },
+    "another-program": {
+        "org": "MyOrg",
+        "project": "MyProject",
+        "query_id": "11111111-1111-1111-1111-111111111111"
+    }
+}

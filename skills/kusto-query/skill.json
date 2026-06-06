@@ -1,0 +1,8 @@
+﻿{
+  "name": "kusto-query",
+  "bundled": true,
+  "version": "1.0.3",
+  "description": "Query Azure Data Explorer with KQL",
+  "userDataPaths": [],
+  "userConfigPaths": []
+}

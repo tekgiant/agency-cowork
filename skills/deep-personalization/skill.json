@@ -1,0 +1,8 @@
+﻿{
+  "name": "deep-personalization",
+  "bundled": true,
+  "version": "1.0.3",
+  "description": "Guided interview to personalize agent identity and preferences",
+  "userDataPaths": [],
+  "userConfigPaths": []
+}

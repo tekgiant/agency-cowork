@@ -1,0 +1,20 @@
+{
+  "name": "onepdm",
+  "description": "Search, browse, and download specifications from OnePDM (Aras Innovator PLM). Supports document search by number/keyword, numbered list with filtering, selective download, retrieval tracking, and batch operations from SOW/PRD exhibits.",
+  "triggers": [
+    "onepdm",
+    "specification",
+    "spec download",
+    "plm",
+    "document number",
+    "M1",
+    "download spec",
+    "list specs",
+    "check freshness",
+    "import sow"
+  ],
+  "author": {
+    "name": "Yang You, Nikhil Kaul",
+    "email": "yyou@microsoft.com, nikhilkaul@microsoft.com"
+  }
+}

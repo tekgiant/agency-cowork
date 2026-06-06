@@ -1,0 +1,8 @@
+﻿{
+  "name": "design-review",
+  "bundled": true,
+  "version": "1.0.3",
+  "description": "Generate design review reports and analysis",
+  "userDataPaths": [],
+  "userConfigPaths": []
+}

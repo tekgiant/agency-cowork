@@ -1,0 +1,17 @@
+{
+  "version": "1.0.0",
+  "keywords": [
+    "email",
+    "outlook",
+    "send",
+    "reply",
+    "forward",
+    "draft"
+  ],
+  "description": "Send, reply, forward, search, and manage emails via Outlook",
+  "author": {
+    "email": "yyou@microsoft.com, nikhilkaul@microsoft.com",
+    "name": "Yang You, Nikhil Kaul"
+  },
+  "name": "send-email"
+}

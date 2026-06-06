@@ -1,0 +1,8 @@
+﻿{
+  "name": "sharepoint-download",
+  "bundled": true,
+  "version": "1.0.3",
+  "description": "Download and upload files between local machine and SharePoint",
+  "userDataPaths": [],
+  "userConfigPaths": []
+}

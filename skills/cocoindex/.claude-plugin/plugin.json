@@ -1,0 +1,20 @@
+{
+  "name": "cocoindex",
+  "description": "Build data transformation pipelines, custom functions, and operate flows with CocoIndex",
+  "version": "1.1.0",
+  "keywords": [
+    "cocoindex",
+    "data-pipeline",
+    "etl",
+    "embedding",
+    "vector-database",
+    "knowledge-graph",
+    "indexing"
+  ],
+  "author": {
+    "name": "Yang You, Nikhil Kaul",
+    "email": "yyou@microsoft.com, nikhilkaul@microsoft.com"
+  },
+  "repository": "https://github.com/cocoindex-io/cocoindex-claude",
+  "license": "Apache-2.0"
+}

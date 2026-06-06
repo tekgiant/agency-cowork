@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <g id="Main_Group">
+    <g id="layer-background">
+      <rect x="0" y="0" width="1600" height="900" fill="#f8fafc"/>
+      <text x="800" y="44" font-family="Aptos, Segoe UI, Arial, sans-serif" font-size="28" font-weight="700" text-anchor="middle" fill="#111827">Diagram Title</text>
+      <text x="800" y="70" font-family="Aptos, Segoe UI, Arial, sans-serif" font-size="14" text-anchor="middle" fill="#4b5563">Subtitle / context line</text>
+    </g>
+
+    <g id="layer-lanes">
+      <rect x="40" y="100" width="500" height="740" fill="#eef2ff" stroke="#c7d2fe" stroke-width="2"/>
+      <rect x="560" y="100" width="500" height="740" fill="#ecfeff" stroke="#a5f3fc" stroke-width="2"/>
+      <rect x="1080" y="100" width="480" height="740" fill="#fff7ed" stroke="#fed7aa" stroke-width="2"/>
+
+      <text x="290" y="132" font-family="Aptos, Segoe UI, Arial, sans-serif" font-size="18" font-weight="700" text-anchor="middle" fill="#1f2937">Input</text>
+      <text x="810" y="132" font-family="Aptos, Segoe UI, Arial, sans-serif" font-size="18" font-weight="700" text-anchor="middle" fill="#1f2937">Processing</text>
+      <text x="1320" y="132" font-family="Aptos, Segoe UI, Arial, sans-serif" font-size="18" font-weight="700" text-anchor="middle" fill="#1f2937">Output</text>
+    </g>
+
+    <g id="layer-content">
+      <g id="Block_A">
+        <rect x="80" y="170" width="420" height="140" fill="#ffffff" stroke="#818cf8" stroke-width="2"/>
+        <text x="290" y="196" font-family="Aptos, Segoe UI, Arial, sans-serif" font-size="15" font-weight="700" text-anchor="middle" fill="#111827">Block Title A</text>
+        <text x="290" y="220" font-family="Aptos, Segoe UI, Arial, sans-serif" font-size="13" text-anchor="middle" fill="#1f2937">Line 1 (pre-wrapped)</text>
+        <text x="290" y="242" font-family="Aptos, Segoe UI, Arial, sans-serif" font-size="13" text-anchor="middle" fill="#1f2937">Line 2 (pre-wrapped)</text>
+        <text x="290" y="264" font-family="Aptos, Segoe UI, Arial, sans-serif" font-size="12" text-anchor="middle" fill="#4b5563">Line 3 helper/detail</text>
+      </g>
+
+      <g id="Block_B">
+        <rect x="600" y="350" width="420" height="160" fill="#ffffff" stroke="#22d3ee" stroke-width="2"/>
+        <text x="810" y="376" font-family="Aptos, Segoe UI, Arial, sans-serif" font-size="15" font-weight="700" text-anchor="middle" fill="#111827">Block Title B</text>
+        <text x="810" y="400" font-family="Aptos, Segoe UI, Arial, sans-serif" font-size="13" text-anchor="middle" fill="#1f2937">Line 1 (keep short)</text>
+        <text x="810" y="422" font-family="Aptos, Segoe UI, Arial, sans-serif" font-size="13" text-anchor="middle" fill="#1f2937">Line 2 (keep short)</text>
+        <text x="810" y="444" font-family="Aptos, Segoe UI, Arial, sans-serif" font-size="12" text-anchor="middle" fill="#991b1b">Line 3 status/exception</text>
+      </g>
+
+      <g id="Block_C">
+        <rect x="1120" y="560" width="400" height="170" fill="#fffbeb" stroke="#f59e0b" stroke-width="2"/>
+        <text x="1320" y="586" font-family="Aptos, Segoe UI, Arial, sans-serif" font-size="15" font-weight="700" text-anchor="middle" fill="#111827">Block Title C</text>
+        <text x="1320" y="610" font-family="Aptos, Segoe UI, Arial, sans-serif" font-size="13" text-anchor="middle" fill="#1f2937">Outcome line 1</text>
+        <text x="1320" y="632" font-family="Aptos, Segoe UI, Arial, sans-serif" font-size="13" text-anchor="middle" fill="#1f2937">Outcome line 2</text>
+        <text x="1320" y="654" font-family="Aptos, Segoe UI, Arial, sans-serif" font-size="12" text-anchor="middle" fill="#374151">Optional note line</text>
+      </g>
+    </g>
+
+    <g id="layer-connectors" stroke="#6b7280" stroke-width="2" fill="#6b7280">
+      <g id="Arrow_1">
+        <line x1="500" y1="240" x2="603" y2="380"/>
+        <polygon points="596,378 606,374 602,384"/>
+      </g>
+
+      <g id="Arrow_2">
+        <line x1="1020" y1="430" x2="1123" y2="640"/>
+        <polygon points="1116,638 1126,634 1122,644"/>
+      </g>
+    </g>
+
+    <g id="layer-legend">
+      <rect x="40" y="850" width="1520" height="34" fill="#ffffff" stroke="#d1d5db" stroke-width="2"/>
+      <text x="800" y="868" font-family="Aptos, Segoe UI, Arial, sans-serif" font-size="12" text-anchor="middle" fill="#374151">
+        <tspan x="800" y="868">Legend: Lanes = phases, blocks = modules, arrows = flow.</tspan>
+        <tspan x="800" y="886">All credentials must use placeholders.</tspan>
+      </text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,8 @@
+﻿{
+  "name": "ado_common",
+  "bundled": true,
+  "version": "1.0.3",
+  "description": "Shared ADO utilities and helpers",
+  "userDataPaths": [],
+  "userConfigPaths": []
+}

@@ -1,0 +1,8 @@
+﻿{
+  "name": "oneplanner",
+  "bundled": true,
+  "version": "1.0.3",
+  "description": "Manage Microsoft Project for the Web schedules",
+  "userDataPaths": [],
+  "userConfigPaths": []
+}

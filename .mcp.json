@@ -1,0 +1,55 @@
+{
+  "mcpServers": {
+    "sharepoint": {
+      "command": "C:\\Windows\\System32\\cmd.exe",
+      "args": [
+        "/c",
+        "agency",
+        "mcp",
+        "sharepoint"
+      ]
+    },
+    "qmd": {
+      "command": "C:\\Users\\mibir\\AppData\\Roaming\\npm\\qmd.cmd",
+      "args": [
+        "mcp"
+      ]
+    },
+    "workiq": {
+      "command": "C:\\Windows\\System32\\cmd.exe",
+      "args": [
+        "/c",
+        "agency",
+        "mcp",
+        "workiq"
+      ]
+    },
+    "teams": {
+      "command": "C:\\Windows\\System32\\cmd.exe",
+      "args": [
+        "/c",
+        "agency",
+        "mcp",
+        "teams"
+      ]
+    },
+    "mail": {
+      "command": "C:\\Windows\\System32\\cmd.exe",
+      "args": [
+        "/c",
+        "agency",
+        "mcp",
+        "mail"
+      ]
+    },
+    "calendar": {
+      "command": "C:\\Windows\\System32\\cmd.exe",
+      "args": [
+        "/c",
+        "agency",
+        "mcp",
+        "calendar"
+      ]
+    }
+  }
+}

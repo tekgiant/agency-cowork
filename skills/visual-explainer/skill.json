@@ -1,0 +1,8 @@
+﻿{
+  "name": "visual-explainer",
+  "bundled": true,
+  "version": "1.0.3",
+  "description": "Generate visual HTML explanations of systems and data",
+  "userDataPaths": [],
+  "userConfigPaths": []
+}

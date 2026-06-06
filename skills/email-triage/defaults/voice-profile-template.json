@@ -1,0 +1,94 @@
+{
+  "version": "1.0.0",
+  "description": "Writer's voice profile — extracted from sent email analysis during onboarding. Used by the email triage skill to draft emails that match the user's natural writing style per audience class.",
+  "generated_from": {
+    "email_count": 0,
+    "date_range": "",
+    "last_updated": ""
+  },
+
+  "directs": {
+    "description": "Direct reports and team members you manage",
+    "contacts": [],
+    "voice": {
+      "tone": "",
+      "formality": "",
+      "greeting_patterns": [],
+      "closing_patterns": [],
+      "structure": "",
+      "turns_of_phrase": [],
+      "terminology": [],
+      "avg_length": "",
+      "notable_traits": []
+    },
+    "draft_prompt": ""
+  },
+
+  "peers": {
+    "description": "Peer PMs, engineers, and cross-functional partners at similar level",
+    "contacts": [],
+    "voice": {
+      "tone": "",
+      "formality": "",
+      "greeting_patterns": [],
+      "closing_patterns": [],
+      "structure": "",
+      "turns_of_phrase": [],
+      "terminology": [],
+      "avg_length": "",
+      "notable_traits": []
+    },
+    "draft_prompt": ""
+  },
+
+  "management": {
+    "description": "Your management chain and senior leadership",
+    "contacts": [],
+    "voice": {
+      "tone": "",
+      "formality": "",
+      "greeting_patterns": [],
+      "closing_patterns": [],
+      "structure": "",
+      "turns_of_phrase": [],
+      "terminology": [],
+      "avg_length": "",
+      "notable_traits": []
+    },
+    "draft_prompt": ""
+  },
+
+  "broad_group": {
+    "description": "Large distribution lists, org-wide announcements, cross-team coordination",
+    "contacts": [],
+    "voice": {
+      "tone": "",
+      "formality": "",
+      "greeting_patterns": [],
+      "closing_patterns": [],
+      "structure": "",
+      "turns_of_phrase": [],
+      "terminology": [],
+      "avg_length": "",
+      "notable_traits": []
+    },
+    "draft_prompt": ""
+  },
+
+  "external": {
+    "description": "External partners, vendors, and contacts outside the organization",
+    "contacts": [],
+    "voice": {
+      "tone": "",
+      "formality": "",
+      "greeting_patterns": [],
+      "closing_patterns": [],
+      "structure": "",
+      "turns_of_phrase": [],
+      "terminology": [],
+      "avg_length": "",
+      "notable_traits": []
+    },
+    "draft_prompt": ""
+  }
+}

@@ -1,0 +1,8 @@
+﻿{
+  "name": "lab-notebook",
+  "bundled": true,
+  "version": "1.0.3",
+  "description": "Lab notebook management and documentation",
+  "userDataPaths": [],
+  "userConfigPaths": []
+}

@@ -1,0 +1,8 @@
+﻿{
+  "name": "word-doc",
+  "bundled": true,
+  "version": "1.0.3",
+  "description": "Create, read, and edit Microsoft Word documents",
+  "userDataPaths": [],
+  "userConfigPaths": []
+}

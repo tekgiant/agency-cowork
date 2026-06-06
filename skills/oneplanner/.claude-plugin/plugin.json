@@ -1,0 +1,18 @@
+{
+  "schema_version": "v1",
+  "name_for_model": "oneplanner",
+  "name_for_human": "OnePlanner Project Manager",
+  "description_for_model": "Interact with Microsoft Project for the Web schedules via the OnePlanner REST API. Query tasks, manage assignments, track dependencies, view risks, compare baselines, check overdue items, and generate project reports. Operates against a local dev server (port 3100) that proxies the PSS API with name-based resolution (no GUIDs needed).",
+  "description_for_human": "Manage Project for the Web schedules — tasks, assignments, dependencies, risks, baselines, and reports.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "rest",
+    "url": "http://127.0.0.1:3100"
+  },
+  "author": {
+    "name": "Yang You, Nikhil Kaul",
+    "email": "yyou@microsoft.com, nikhilkaul@microsoft.com"
+  }
+}

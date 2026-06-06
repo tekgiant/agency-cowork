@@ -1,0 +1,104 @@
+{
+  "runtime": "copilot",
+  "memory": {
+    "location": "onedrive",
+    "onedrivePath": "C:\\Users\\mibir\\OneDrive - Microsoft\\Agency Cowork\\Agency-Cowork\\memory",
+    "repo": "https://github.com/YOUR-ORG/agent-memory.git",
+    "branch": "main",
+    "embedding": {
+      "provider": "sentence_transformer",
+      "sentence_transformer": {
+        "model_name": "BAAI/bge-small-en-v1.5",
+        "dimensions": 384
+      },
+      "local": {
+        "model_path": "skills/qmd-memory/models/bge-small-en-v1.5-f16.gguf",
+        "model_name": "bge-small-en-v1.5-f16",
+        "dimensions": 384
+      },
+      "azure_openai": {
+        "endpoint": "",
+        "deployment": "text-embedding-3-large",
+        "model": "text-embedding-3-large",
+        "api_version": "2024-04-01-preview"
+      }
+    },
+    "onedriveOutputPath": "C:\\Users\\mibir\\OneDrive - Microsoft\\Agency Cowork\\Agency-Cowork\\output"
+  },
+  "prompt_guard": {
+    "enabled": true,
+    "notify_teams": true,
+    "notify_email": false
+  },
+  "monitor": {
+    "enabled": true,
+    "keyword": "@agent",
+    "replyPrefix": "Agency Cowork: ",
+    "yoloMode": false,
+    "autopilotMode": false,
+    "autoApprovePermissions": false,
+    "smartPermission": false
+  },
+  "smartPermission": {
+    "enabled": false,
+    "model": "claude-haiku-4.5",
+    "debug": false,
+    "timeout": 30,
+    "mcpSafe": "mail-GetMessage mail-SearchMessages mail-GetAttachments mail-DownloadAttachment calendar-ListEvents calendar-ListCalendarView calendar-GetUserDateAndTimeZoneSettings calendar-GetRooms teams-ListChats teams-ListChatMessages teams-ListTeams teams-ListChannels teams-ListChannelMessages teams-ListChatMembers teams-ListChannelMembers teams-GetChat teams-GetTeam teams-GetChannel teams-GetChatMessage teams-SearchTeamsMessages sharepoint-findFileOrFolder sharepoint-findFileOrFolderInMyDrive sharepoint-readSmallTextFile sharepoint-readSmallBinaryFile sharepoint-getFolderChildren sharepoint-getFileOrFolderMetadata sharepoint-getFileOrFolderMetadataByUrl sharepoint-findSite sharepoint-listDocumentLibrariesInSite sharepoint-getDefaultDocumentLibraryInSite workiq-ask_work_iq",
+    "mcpAsk": "mail-SendEmailWithAttachments mail-CreateDraftMessage mail-UpdateDraft mail-SendDraftMessage mail-ReplyToMessage mail-ReplyAllToMessage mail-ForwardMessage mail-ForwardMessageWithFullThread mail-ReplyWithFullThread mail-ReplyAllWithFullThread mail-DeleteMessage mail-FlagEmail mail-UpdateMessage mail-UploadAttachment mail-UploadLargeAttachment mail-DeleteAttachment teams-PostMessage teams-PostChannelMessage teams-ReplyToChannelMessage teams-CreateChat teams-DeleteChat teams-UpdateChat teams-AddChatMember teams-AddChannelMember teams-CreateChannel teams-CreatePrivateChannel teams-UpdateChannel teams-UpdateChannelMember teams-UpdateChatMessage teams-DeleteChatMessage calendar-CreateEvent calendar-UpdateEvent calendar-DeleteEventById calendar-AcceptEvent calendar-TentativelyAcceptEvent calendar-DeclineEvent calendar-CancelEvent calendar-ForwardEvent sharepoint-createSmallTextFile sharepoint-createSmallBinaryFile sharepoint-createFolder sharepoint-deleteFileOrFolder sharepoint-moveSmallFile sharepoint-copyFileOrFolder sharepoint-uploadFileFromUrl sharepoint-renameFileOrFolder sharepoint-shareFileOrFolder sharepoint-setSensitivityLabelOnFile"
+  },
+  "office": {
+    "branding": {
+      "company": "Your Company",
+      "program": "",
+      "primary_color": "#0078D4",
+      "accent_color": "#50E6FF",
+      "dark_color": "#1B1A19",
+      "font_heading": "Segoe UI Semibold",
+      "font_body": "Segoe UI",
+      "logo_path": null
+    },
+    "powerpoint": {
+      "default_template": null,
+      "slide_width_inches": 13.333,
+      "slide_height_inches": 7.5,
+      "title_font_size_pt": 28,
+      "body_font_size_pt": 18,
+      "footer_text": "",
+      "slide_numbers": true,
+      "max_bullets_per_slide": 6
+    },
+    "excel": {
+      "header_fill_color": "#0078D4",
+      "header_font_color": "#FFFFFF",
+      "stripe_color": "#F3F2F1",
+      "default_font": "Segoe UI",
+      "default_font_size_pt": 11,
+      "auto_filter": true,
+      "freeze_header_row": true
+    },
+    "word": {
+      "default_template": null,
+      "heading_font": "Segoe UI Semibold",
+      "body_font": "Segoe UI",
+      "body_font_size_pt": 11,
+      "page_margin_inches": 1,
+      "header_text": "",
+      "footer_text": ""
+    },
+    "output_dir": "output"
+  },
+  "handy": {
+    "enabled": false,
+    "autoStart": false,
+    "startHidden": true
+  },
+  "scheduler": {
+    "default_timeout_minutes": 30,
+    "enabled": true
+  },
+  "star": {
+    "totalUsageMs": 437102214,
+    "prompted": true
+  }
+}

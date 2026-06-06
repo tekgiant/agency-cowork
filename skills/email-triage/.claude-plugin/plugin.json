@@ -1,0 +1,19 @@
+{
+  "name": "email-triage",
+  "version": "1.0.0",
+  "description": "Automated email triage — categorize inbox emails as Urgent/Needs Response/FYI/Archive, draft responses, filter noise, and deliver summaries to Teams self-chat. Runs on a 30-minute schedule during working hours.",
+  "author": {
+    "name": "Yang You, Nikhil Kaul",
+    "email": "yyou@microsoft.com, nikhilkaul@microsoft.com"
+  },
+  "keywords": [
+    "email",
+    "triage",
+    "inbox",
+    "categorize",
+    "draft",
+    "outlook",
+    "automation",
+    "filter"
+  ]
+}

@@ -1,0 +1,8 @@
+﻿{
+  "name": "send-email",
+  "bundled": true,
+  "version": "1.0.3",
+  "description": "Send, reply, forward, and search Outlook emails",
+  "userDataPaths": [],
+  "userConfigPaths": []
+}

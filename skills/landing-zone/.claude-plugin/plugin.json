@@ -1,0 +1,17 @@
+{
+  "version": "1.0.0",
+  "name": "landing-zone",
+  "description": "Query, analyze, and manage Azure DevOps Landing Zone requirements. Supports state machine validation, grading analytics, week-over-week progress tracking, and ADO write operations.",
+  "keywords": [
+    "landing-zone",
+    "requirements",
+    "ADO",
+    "grading",
+    "state-machine",
+    "product-definition"
+  ],
+  "author": {
+    "name": "Yang You, Nikhil Kaul",
+    "email": "yyou@microsoft.com, nikhilkaul@microsoft.com"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "category": "utilities",
+  "engines": [
+    "claude",
+    "copilot"
+  ],
+  "origin": {
+    "repository": "https://github.com/nicobailon/visual-explainer",
+    "license": "MIT",
+    "author": "nicobailon"
+  }
+}

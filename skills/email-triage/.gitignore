@@ -1,0 +1,7 @@
+# Runtime state and credentials (regenerated at runtime)
+cache/
+logs/
+
+# Python bytecode
+__pycache__/
+*.pyc

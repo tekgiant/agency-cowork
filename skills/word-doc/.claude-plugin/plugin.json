@@ -1,0 +1,18 @@
+{
+  "version": "1.0.0",
+  "keywords": [
+    "word",
+    "document",
+    "docx",
+    "create",
+    "comment",
+    "onedrive",
+    "sharepoint"
+  ],
+  "description": "Create, read, and comment on Microsoft Word documents via OneDrive/SharePoint",
+  "author": {
+    "email": "yyou@microsoft.com, nikhilkaul@microsoft.com",
+    "name": "Yang You, Nikhil Kaul"
+  },
+  "name": "word-doc"
+}

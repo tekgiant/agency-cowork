@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "keywords": [
+    "specification",
+    "planning",
+    "tasks",
+    "development",
+    "spec-driven"
+  ],
+  "description": "Spec-driven development — create specifications, generate tasks, and implement from plans",
+  "author": {
+    "email": "yyou@microsoft.com, nikhilkaul@microsoft.com",
+    "name": "Yang You, Nikhil Kaul"
+  },
+  "name": "spec-kit"
+}

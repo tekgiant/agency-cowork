@@ -1,0 +1,8 @@
+﻿{
+  "name": "qmd-memory",
+  "bundled": true,
+  "version": "1.0.3",
+  "description": "Semantic memory search across daily logs and Knowledgebase",
+  "userDataPaths": [],
+  "userConfigPaths": []
+}

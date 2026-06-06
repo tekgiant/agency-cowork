@@ -1,0 +1,8 @@
+﻿{
+  "name": "workstreams",
+  "bundled": true,
+  "version": "1.0.3",
+  "description": "Manage workstreams, meeting summaries, and action items",
+  "userDataPaths": [],
+  "userConfigPaths": []
+}

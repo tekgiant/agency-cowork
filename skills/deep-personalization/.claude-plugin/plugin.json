@@ -1,0 +1,17 @@
+{
+  "name": "deep-personalization",
+  "version": "1.0.0",
+  "description": "Guided multi-phase interview to personalize agent identity, communication style, domain knowledge, and working preferences",
+  "keywords": [
+    "personalization",
+    "onboarding",
+    "identity",
+    "profile",
+    "interview",
+    "customize"
+  ],
+  "author": {
+    "email": "yyou@microsoft.com, nikhilkaul@microsoft.com",
+    "name": "Yang You, Nikhil Kaul"
+  }
+}

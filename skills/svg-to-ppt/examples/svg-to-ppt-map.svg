@@ -1,0 +1,375 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="980" viewBox="0 0 1600 980">
+
+  <!-- ═══════════════════════════════════════════════════════════
+       svg-to-ppt Directory Map (updated 2026-03-06)
+       Reflects current layout: .claude-plugin/, agency.json,
+       skills/svg-to-ppt/SKILL.md, no PROMPT.md
+       Primitives only: rect, line, polygon, text
+       Atomic arrows: <g> with <line> + <polygon>
+       Absolute coordinates, Office-safe fonts
+       ═══════════════════════════════════════════════════════════ -->
+
+  <g id="Main_Group">
+
+    <!-- ─── Background ─── -->
+    <g id="layer-background">
+      <rect x="0" y="0" width="1600" height="980" fill="#f0f2f7" />
+      <!-- Title bar -->
+      <rect x="0" y="0" width="1600" height="64" fill="#1e293b" />
+      <text x="800" y="22" font-family="Segoe UI, Arial" font-size="13" font-weight="bold" fill="#94a3b8" text-anchor="middle">SVG-TO-PPT SKILL PACK</text>
+      <text x="800" y="46" font-family="Segoe UI, Arial" font-size="18" font-weight="bold" fill="#f8fafc" text-anchor="middle">Directory Map · Files, Roles &amp; Relationships</text>
+    </g>
+
+    <!-- ─── Row labels (swim-lane headers) ─── -->
+    <g id="layer-lanes">
+      <!-- Lane 1: Config / Plugin -->
+      <rect x="30" y="86" width="178" height="150" fill="#059669" rx="4" />
+      <text x="119" y="166" font-family="Segoe UI, Arial" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="middle">CONFIG</text>
+
+      <!-- Lane 2: Documentation -->
+      <rect x="30" y="248" width="178" height="220" fill="#1e40af" rx="4" />
+      <text x="119" y="358" font-family="Segoe UI, Arial" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="middle">DOCUMENTATION</text>
+
+      <!-- Lane 3: Validation -->
+      <rect x="30" y="480" width="178" height="190" fill="#6d28d9" rx="4" />
+      <text x="119" y="575" font-family="Segoe UI, Arial" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="middle">VALIDATION</text>
+
+      <!-- Lane 4: Reference Assets -->
+      <rect x="30" y="682" width="178" height="140" fill="#b45309" rx="4" />
+      <text x="119" y="752" font-family="Segoe UI, Arial" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="middle">REFERENCE ASSETS</text>
+
+      <!-- Lane 5: Authoring -->
+      <rect x="30" y="834" width="178" height="118" fill="#0e7490" rx="4" />
+      <text x="119" y="893" font-family="Segoe UI, Arial" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="middle">AUTHORING</text>
+    </g>
+
+    <!-- ═══════════════════════════════════
+         LANE 1 — CONFIG / PLUGIN
+         .claude-plugin/plugin.json · agency.json
+         ═══════════════════════════════════ -->
+    <g id="layer-config">
+
+      <!-- .claude-plugin/plugin.json -->
+      <g id="Block_Plugin">
+        <rect x="228" y="96" width="320" height="130" fill="#ffffff" stroke="#059669" stroke-width="2" rx="6" />
+        <rect x="228" y="96" width="320" height="32" fill="#059669" rx="4" />
+        <rect x="228" y="116" width="320" height="12" fill="#059669" />
+        <text x="388" y="117" font-family="Segoe UI, Arial" font-size="13" font-weight="bold" fill="#ffffff" text-anchor="middle">.claude-plugin/plugin.json</text>
+        <text x="388" y="147" font-family="Segoe UI, Arial" font-size="11" fill="#374151" text-anchor="middle">🔌 Skill metadata</text>
+        <text x="248" y="170" font-family="Segoe UI, Arial" font-size="11" fill="#6b7280">name, description, version, keywords</text>
+        <text x="248" y="188" font-family="Segoe UI, Arial" font-size="11" fill="#6b7280">Enables Claude plugin discovery</text>
+        <text x="248" y="206" font-family="Segoe UI, Arial" font-size="11" fill="#6b7280">Follows standard skill pack layout</text>
+      </g>
+
+      <!-- agency.json -->
+      <g id="Block_Agency">
+        <rect x="608" y="96" width="320" height="130" fill="#ffffff" stroke="#059669" stroke-width="2" rx="6" />
+        <rect x="608" y="96" width="320" height="32" fill="#059669" rx="4" />
+        <rect x="608" y="116" width="320" height="12" fill="#059669" />
+        <text x="768" y="117" font-family="Segoe UI, Arial" font-size="13" font-weight="bold" fill="#ffffff" text-anchor="middle">agency.json</text>
+        <text x="768" y="147" font-family="Segoe UI, Arial" font-size="11" fill="#374151" text-anchor="middle">⚙️ Engine configuration</text>
+        <text x="628" y="170" font-family="Segoe UI, Arial" font-size="11" fill="#6b7280">category: productivity</text>
+        <text x="628" y="188" font-family="Segoe UI, Arial" font-size="11" fill="#6b7280">engines: claude, copilot</text>
+        <text x="628" y="206" font-family="Segoe UI, Arial" font-size="11" fill="#6b7280">Standard Agency Cowork config</text>
+      </g>
+
+    </g>
+
+    <!-- ═══════════════════════════════════
+         LANE 2 — DOCUMENTATION
+         README.md · skills/svg-to-ppt/SKILL.md
+         ═══════════════════════════════════ -->
+    <g id="layer-docs">
+
+      <!-- README.md -->
+      <g id="Block_README">
+        <rect x="228" y="258" width="320" height="200" fill="#ffffff" stroke="#1e40af" stroke-width="2" rx="6" />
+        <rect x="228" y="258" width="320" height="32" fill="#1e40af" rx="4" />
+        <rect x="228" y="278" width="320" height="12" fill="#1e40af" />
+        <text x="388" y="279" font-family="Segoe UI, Arial" font-size="13" font-weight="bold" fill="#ffffff" text-anchor="middle">README.md</text>
+        <text x="388" y="309" font-family="Segoe UI, Arial" font-size="11" fill="#374151" text-anchor="middle">🚪 User entry point</text>
+        <text x="248" y="332" font-family="Segoe UI, Arial" font-size="11" fill="#6b7280">Role: Quick-start overview</text>
+        <text x="248" y="350" font-family="Segoe UI, Arial" font-size="11" fill="#6b7280">→ links to SKILL.md (full standards)</text>
+        <text x="248" y="368" font-family="Segoe UI, Arial" font-size="11" fill="#6b7280">→ links to CHECKLIST.md (QA)</text>
+        <text x="248" y="386" font-family="Segoe UI, Arial" font-size="11" fill="#6b7280">→ links to templates/ &amp; examples/</text>
+        <text x="248" y="404" font-family="Segoe UI, Arial" font-size="11" fill="#6b7280">→ lists Makefile commands</text>
+        <text x="248" y="422" font-family="Segoe UI, Arial" font-size="11" fill="#6b7280">→ summarises non-negotiable rules</text>
+      </g>
+
+      <!-- skills/svg-to-ppt/SKILL.md -->
+      <g id="Block_SKILL">
+        <rect x="608" y="258" width="320" height="200" fill="#ffffff" stroke="#1e40af" stroke-width="2" rx="6" />
+        <rect x="608" y="258" width="320" height="32" fill="#1e40af" rx="4" />
+        <rect x="608" y="278" width="320" height="12" fill="#1e40af" />
+        <text x="768" y="279" font-family="Segoe UI, Arial" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="middle">skills/svg-to-ppt/SKILL.md</text>
+        <text x="768" y="309" font-family="Segoe UI, Arial" font-size="11" fill="#374151" text-anchor="middle">📋 Source of truth (standards + prompt)</text>
+        <text x="628" y="332" font-family="Segoe UI, Arial" font-size="11" fill="#6b7280">Role: Authoritative rules + AI prompt</text>
+        <text x="628" y="350" font-family="Segoe UI, Arial" font-size="11" fill="#6b7280">→ workflow (define→lay→connect→QA)</text>
+        <text x="628" y="368" font-family="Segoe UI, Arial" font-size="11" fill="#6b7280">→ mandatory constraints (primitives,</text>
+        <text x="628" y="384" font-family="Segoe UI, Arial" font-size="11" fill="#6b7280">   absolute coords, inline styling)</text>
+        <text x="628" y="402" font-family="Segoe UI, Arial" font-size="11" fill="#6b7280">→ input format, output contract</text>
+        <text x="628" y="420" font-family="Segoe UI, Arial" font-size="11" fill="#6b7280">→ reference code example + self-check</text>
+        <text x="628" y="438" font-family="Segoe UI, Arial" font-size="11" fill="#6b7280">→ Convert-to-Shape workarounds</text>
+      </g>
+
+    </g>
+
+    <!-- ═══════════════════════════════════
+         LANE 3 — VALIDATION
+         CHECKLIST.md · Makefile
+         ═══════════════════════════════════ -->
+    <g id="layer-validation">
+
+      <!-- CHECKLIST.md -->
+      <g id="Block_CHECKLIST">
+        <rect x="228" y="490" width="320" height="170" fill="#ffffff" stroke="#6d28d9" stroke-width="2" rx="6" />
+        <rect x="228" y="490" width="320" height="32" fill="#6d28d9" rx="4" />
+        <rect x="228" y="510" width="320" height="12" fill="#6d28d9" />
+        <text x="388" y="511" font-family="Segoe UI, Arial" font-size="13" font-weight="bold" fill="#ffffff" text-anchor="middle">CHECKLIST.md</text>
+        <text x="388" y="541" font-family="Segoe UI, Arial" font-size="11" fill="#374151" text-anchor="middle">✅ Manual QA checklist</text>
+        <text x="248" y="564" font-family="Segoe UI, Arial" font-size="11" fill="#6b7280">Role: Pre-conversion QA gate</text>
+        <text x="248" y="582" font-family="Segoe UI, Arial" font-size="11" fill="#6b7280">Sections: A) Authoring  B) Text</text>
+        <text x="248" y="600" font-family="Segoe UI, Arial" font-size="11" fill="#6b7280">  C) Conversion  D) Publish</text>
+        <text x="248" y="618" font-family="Segoe UI, Arial" font-size="11" fill="#6b7280">  E) Right-edge &amp; overflow safeguards</text>
+        <text x="248" y="636" font-family="Segoe UI, Arial" font-size="11" fill="#6b7280">→ cross-refs SKILL.md</text>
+      </g>
+
+      <!-- Makefile -->
+      <g id="Block_Makefile">
+        <rect x="608" y="490" width="320" height="170" fill="#ffffff" stroke="#6d28d9" stroke-width="2" rx="6" />
+        <rect x="608" y="490" width="320" height="32" fill="#6d28d9" rx="4" />
+        <rect x="608" y="510" width="320" height="12" fill="#6d28d9" />
+        <text x="768" y="511" font-family="Segoe UI, Arial" font-size="13" font-weight="bold" fill="#ffffff" text-anchor="middle">Makefile</text>
+        <text x="768" y="541" font-family="Segoe UI, Arial" font-size="11" fill="#374151" text-anchor="middle">⚙️ Automated validation tooling</text>
+        <text x="628" y="564" font-family="Segoe UI, Arial" font-size="11" fill="#6b7280">Targets: validate, check-files,</text>
+        <text x="628" y="582" font-family="Segoe UI, Arial" font-size="11" fill="#6b7280">  check-svg-safety, validate-svg</text>
+        <text x="628" y="600" font-family="Segoe UI, Arial" font-size="11" fill="#6b7280">Rejects: &lt;path&gt;, &lt;marker&gt;, http refs</text>
+        <text x="628" y="618" font-family="Segoe UI, Arial" font-size="11" fill="#6b7280">Checks: font-size ≤ 28, chars ≤ 95</text>
+        <text x="628" y="636" font-family="Segoe UI, Arial" font-size="11" fill="#6b7280">→ runs over templates/ &amp; examples/</text>
+      </g>
+
+    </g>
+
+    <!-- ═══════════════════════════════════
+         LANE 4 — REFERENCE ASSETS
+         api_profile_filtering_flow.svg · ppt_shape_starter.svg
+         ═══════════════════════════════════ -->
+    <g id="layer-examples">
+
+      <!-- api_profile_filtering_flow.svg -->
+      <g id="Block_ApiProfileFlow">
+        <rect x="228" y="692" width="320" height="120" fill="#ffffff" stroke="#b45309" stroke-width="2" rx="6" />
+        <rect x="228" y="692" width="320" height="32" fill="#b45309" rx="4" />
+        <rect x="228" y="712" width="320" height="12" fill="#b45309" />
+        <text x="388" y="713" font-family="Segoe UI, Arial" font-size="11" font-weight="bold" fill="#ffffff" text-anchor="middle">examples/api_profile_filtering_flow.svg</text>
+        <text x="388" y="743" font-family="Segoe UI, Arial" font-size="11" fill="#374151" text-anchor="middle">📌 Complex real-world example</text>
+        <text x="248" y="766" font-family="Segoe UI, Arial" font-size="11" fill="#6b7280">Canvas: 1920×1080 · 4 phase lanes</text>
+        <text x="248" y="784" font-family="Segoe UI, Arial" font-size="11" fill="#6b7280">→ tspan wrapping, cross-lane arrows</text>
+      </g>
+
+      <!-- templates/ppt_shape_starter.svg -->
+      <g id="Block_StarterTemplate">
+        <rect x="608" y="692" width="320" height="120" fill="#ffffff" stroke="#b45309" stroke-width="2" rx="6" />
+        <rect x="608" y="692" width="320" height="32" fill="#b45309" rx="4" />
+        <rect x="608" y="712" width="320" height="12" fill="#b45309" />
+        <text x="768" y="713" font-family="Segoe UI, Arial" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="middle">templates/ppt_shape_starter.svg</text>
+        <text x="768" y="743" font-family="Segoe UI, Arial" font-size="11" fill="#374151" text-anchor="middle">🗂 Copy-paste scaffold</text>
+        <text x="628" y="766" font-family="Segoe UI, Arial" font-size="11" fill="#6b7280">Canvas: 1600×900 · layer structure</text>
+        <text x="628" y="784" font-family="Segoe UI, Arial" font-size="11" fill="#6b7280">→ atomic arrow groups, tspan wrapping</text>
+      </g>
+
+    </g>
+
+    <!-- ═══════════════════════════════════
+         LANE 5 — AUTHORING (this map)
+         examples/svg-to-ppt-map.svg
+         ═══════════════════════════════════ -->
+    <g id="layer-meta">
+
+      <g id="Block_ThisMap">
+        <rect x="228" y="844" width="700" height="98" fill="#ffffff" stroke="#0e7490" stroke-width="2" rx="6" />
+        <rect x="228" y="844" width="700" height="32" fill="#0e7490" rx="4" />
+        <rect x="228" y="864" width="700" height="12" fill="#0e7490" />
+        <text x="578" y="865" font-family="Segoe UI, Arial" font-size="13" font-weight="bold" fill="#ffffff" text-anchor="middle">examples/svg-to-ppt-map.svg (this file)</text>
+        <text x="578" y="895" font-family="Segoe UI, Arial" font-size="11" fill="#374151" text-anchor="middle">🗺 Self-referential directory map — demonstrates skill standards in practice</text>
+        <text x="578" y="918" font-family="Segoe UI, Arial" font-size="11" fill="#6b7280" text-anchor="middle">Primitives only · atomic arrows · absolute coords · Segoe UI, Arial</text>
+      </g>
+
+    </g>
+
+    <!-- ═══════════════════════════════════
+         RELATIONSHIP PANEL (right side)
+         ═══════════════════════════════════ -->
+    <g id="layer-relationships">
+
+      <!-- Panel background -->
+      <rect x="1008" y="86" width="562" height="856" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5" rx="8" />
+      <rect x="1008" y="86" width="562" height="38" fill="#1e293b" rx="6" />
+      <rect x="1008" y="108" width="562" height="16" fill="#1e293b" />
+      <text x="1289" y="112" font-family="Segoe UI, Arial" font-size="13" font-weight="bold" fill="#f8fafc" text-anchor="middle">RELATIONSHIPS &amp; CROSS-REFERENCES</text>
+
+      <!-- ── Section: Directory structure ── -->
+      <text x="1028" y="150" font-family="Segoe UI, Arial" font-size="12" font-weight="bold" fill="#1e293b">Directory structure</text>
+      <line x1="1028" y1="155" x2="1550" y2="155" stroke="#e2e8f0" stroke-width="1" />
+      <text x="1028" y="174" font-family="Segoe UI, Arial" font-size="11" fill="#374151">svg-to-ppt/</text>
+      <text x="1028" y="192" font-family="Segoe UI, Arial" font-size="11" fill="#6b7280">  .claude-plugin/plugin.json</text>
+      <text x="1028" y="210" font-family="Segoe UI, Arial" font-size="11" fill="#6b7280">  agency.json</text>
+      <text x="1028" y="228" font-family="Segoe UI, Arial" font-size="11" fill="#6b7280">  README.md</text>
+      <text x="1028" y="246" font-family="Segoe UI, Arial" font-size="11" fill="#6b7280">  CHECKLIST.md</text>
+      <text x="1028" y="264" font-family="Segoe UI, Arial" font-size="11" fill="#6b7280">  Makefile</text>
+      <text x="1028" y="282" font-family="Segoe UI, Arial" font-size="11" fill="#6b7280">  skills/svg-to-ppt/SKILL.md</text>
+      <text x="1028" y="300" font-family="Segoe UI, Arial" font-size="11" fill="#6b7280">  templates/ppt_shape_starter.svg</text>
+      <text x="1028" y="318" font-family="Segoe UI, Arial" font-size="11" fill="#6b7280">  examples/api_profile_filtering_flow.svg</text>
+      <text x="1028" y="336" font-family="Segoe UI, Arial" font-size="11" fill="#6b7280">  examples/svg-to-ppt-map.svg</text>
+
+      <!-- ── Section: Entry-point chain ── -->
+      <text x="1028" y="368" font-family="Segoe UI, Arial" font-size="12" font-weight="bold" fill="#1e293b">Entry-point chain</text>
+      <line x1="1028" y1="373" x2="1550" y2="373" stroke="#e2e8f0" stroke-width="1" />
+      <text x="1028" y="392" font-family="Segoe UI, Arial" font-size="11" fill="#374151">README.md  →  SKILL.md  →  CHECKLIST.md</text>
+      <text x="1028" y="410" font-family="Segoe UI, Arial" font-size="11" fill="#374151">README.md  →  templates/  →  examples/</text>
+      <text x="1028" y="428" font-family="Segoe UI, Arial" font-size="11" fill="#374151">README.md  →  Makefile (command reference)</text>
+
+      <!-- ── Section: Standards chain ── -->
+      <text x="1028" y="458" font-family="Segoe UI, Arial" font-size="12" font-weight="bold" fill="#1e293b">Standards authority chain</text>
+      <line x1="1028" y1="463" x2="1550" y2="463" stroke="#e2e8f0" stroke-width="1" />
+      <text x="1028" y="482" font-family="Segoe UI, Arial" font-size="11" fill="#374151">SKILL.md  ←  referenced by  →  README.md</text>
+      <text x="1028" y="500" font-family="Segoe UI, Arial" font-size="11" fill="#374151">SKILL.md  ←  referenced by  →  CHECKLIST.md</text>
+      <text x="1028" y="518" font-family="Segoe UI, Arial" font-size="11" fill="#374151">SKILL.md  =  single source of truth (rules + prompt)</text>
+
+      <!-- ── Section: Validation chain ── -->
+      <text x="1028" y="548" font-family="Segoe UI, Arial" font-size="12" font-weight="bold" fill="#1e293b">Validation enforcement chain</text>
+      <line x1="1028" y1="553" x2="1550" y2="553" stroke="#e2e8f0" stroke-width="1" />
+      <text x="1028" y="572" font-family="Segoe UI, Arial" font-size="11" fill="#374151">Makefile  scans  →  templates/*.svg</text>
+      <text x="1028" y="590" font-family="Segoe UI, Arial" font-size="11" fill="#374151">Makefile  scans  →  examples/*.svg</text>
+      <text x="1028" y="608" font-family="Segoe UI, Arial" font-size="11" fill="#374151">Makefile  enforces rules from  →  SKILL.md</text>
+      <text x="1028" y="626" font-family="Segoe UI, Arial" font-size="11" fill="#374151">CHECKLIST.md  manual companion to  →  Makefile</text>
+
+      <!-- ── Section: Constraint table ── -->
+      <text x="1028" y="658" font-family="Segoe UI, Arial" font-size="12" font-weight="bold" fill="#1e293b">Constraints enforced across all files</text>
+      <line x1="1028" y1="663" x2="1550" y2="663" stroke="#e2e8f0" stroke-width="1" />
+
+      <!-- Table header -->
+      <rect x="1028" y="670" width="522" height="22" fill="#f1f5f9" />
+      <text x="1038" y="685" font-family="Segoe UI, Arial" font-size="11" font-weight="bold" fill="#374151">Constraint</text>
+      <text x="1268" y="685" font-family="Segoe UI, Arial" font-size="11" font-weight="bold" fill="#374151">Defined in</text>
+      <text x="1438" y="685" font-family="Segoe UI, Arial" font-size="11" font-weight="bold" fill="#374151">Enforced by</text>
+      <line x1="1028" y1="692" x2="1550" y2="692" stroke="#e2e8f0" stroke-width="1" />
+
+      <!-- Row 1 -->
+      <text x="1038" y="708" font-family="Segoe UI, Arial" font-size="10" fill="#374151">rect/line/polygon/text only</text>
+      <text x="1268" y="708" font-family="Segoe UI, Arial" font-size="10" fill="#374151">SKILL, CHECKLIST</text>
+      <text x="1438" y="708" font-family="Segoe UI, Arial" font-size="10" fill="#374151">Makefile</text>
+      <line x1="1028" y1="714" x2="1550" y2="714" stroke="#f1f5f9" stroke-width="1" />
+
+      <!-- Row 2 -->
+      <text x="1038" y="730" font-family="Segoe UI, Arial" font-size="10" fill="#374151">No &lt;marker&gt; or &lt;path&gt;</text>
+      <text x="1268" y="730" font-family="Segoe UI, Arial" font-size="10" fill="#374151">SKILL, CHECKLIST</text>
+      <text x="1438" y="730" font-family="Segoe UI, Arial" font-size="10" fill="#374151">Makefile grep</text>
+      <line x1="1028" y1="736" x2="1550" y2="736" stroke="#f1f5f9" stroke-width="1" />
+
+      <!-- Row 3 -->
+      <text x="1038" y="752" font-family="Segoe UI, Arial" font-size="10" fill="#374151">Atomic arrows (line + polygon)</text>
+      <text x="1268" y="752" font-family="Segoe UI, Arial" font-size="10" fill="#374151">SKILL</text>
+      <text x="1438" y="752" font-family="Segoe UI, Arial" font-size="10" fill="#374151">Examples</text>
+      <line x1="1028" y1="758" x2="1550" y2="758" stroke="#f1f5f9" stroke-width="1" />
+
+      <!-- Row 4 -->
+      <text x="1038" y="774" font-family="Segoe UI, Arial" font-size="10" fill="#374151">Absolute coords, inline styling</text>
+      <text x="1268" y="774" font-family="Segoe UI, Arial" font-size="10" fill="#374151">SKILL</text>
+      <text x="1438" y="774" font-family="Segoe UI, Arial" font-size="10" fill="#374151">Examples, Makefile</text>
+      <line x1="1028" y1="780" x2="1550" y2="780" stroke="#f1f5f9" stroke-width="1" />
+
+      <!-- Row 5 -->
+      <text x="1038" y="796" font-family="Segoe UI, Arial" font-size="10" fill="#374151">Office-safe fonts (Segoe/Arial)</text>
+      <text x="1268" y="796" font-family="Segoe UI, Arial" font-size="10" fill="#374151">SKILL, CHECKLIST</text>
+      <text x="1438" y="796" font-family="Segoe UI, Arial" font-size="10" fill="#374151">Examples</text>
+      <line x1="1028" y1="802" x2="1550" y2="802" stroke="#f1f5f9" stroke-width="1" />
+
+      <!-- Row 6 -->
+      <text x="1038" y="818" font-family="Segoe UI, Arial" font-size="10" fill="#374151">tspan absolute-y text wrapping</text>
+      <text x="1268" y="818" font-family="Segoe UI, Arial" font-size="10" fill="#374151">SKILL, CHECKLIST</text>
+      <text x="1438" y="818" font-family="Segoe UI, Arial" font-size="10" fill="#374151">API flow example</text>
+      <line x1="1028" y1="824" x2="1550" y2="824" stroke="#f1f5f9" stroke-width="1" />
+
+      <!-- Row 7 -->
+      <text x="1038" y="840" font-family="Segoe UI, Arial" font-size="10" fill="#374151">Font ≤ 28px, chars ≤ 95/line</text>
+      <text x="1268" y="840" font-family="Segoe UI, Arial" font-size="10" fill="#374151">SKILL, CHECKLIST</text>
+      <text x="1438" y="840" font-family="Segoe UI, Arial" font-size="10" fill="#374151">Makefile vars</text>
+      <line x1="1028" y1="846" x2="1550" y2="846" stroke="#f1f5f9" stroke-width="1" />
+
+      <!-- Row 8 -->
+      <text x="1038" y="862" font-family="Segoe UI, Arial" font-size="10" fill="#374151">No external http/https refs</text>
+      <text x="1268" y="862" font-family="Segoe UI, Arial" font-size="10" fill="#374151">SKILL, Makefile</text>
+      <text x="1438" y="862" font-family="Segoe UI, Arial" font-size="10" fill="#374151">Makefile grep</text>
+
+      <!-- ── Authoring workflow summary ── -->
+      <text x="1028" y="896" font-family="Segoe UI, Arial" font-size="12" font-weight="bold" fill="#1e293b">Authoring workflow</text>
+      <line x1="1028" y1="901" x2="1550" y2="901" stroke="#e2e8f0" stroke-width="1" />
+      <text x="1038" y="920" font-family="Segoe UI, Arial" font-size="11" fill="#374151">README  →  SKILL.md  →  starter template  →  author SVG</text>
+      <text x="1038" y="938" font-family="Segoe UI, Arial" font-size="11" fill="#374151">        →  make validate  →  CHECKLIST.md  →  PPT</text>
+
+    </g>
+
+    <!-- ═══════════════════════════════════
+         CONNECTORS (arrows left panel)
+         ═══════════════════════════════════ -->
+    <g id="layer-connectors">
+
+      <!-- README → SKILL (horizontal, right) -->
+      <g id="Arrow_README_to_SKILL">
+        <line x1="548" y1="358" x2="602" y2="358" stroke="#1e40af" stroke-width="1.5" />
+        <polygon points="602,353 612,358 602,363" fill="#1e40af" />
+      </g>
+
+      <!-- README → CHECKLIST (vertical down) -->
+      <g id="Arrow_README_to_CHECKLIST">
+        <line x1="388" y1="458" x2="388" y2="484" stroke="#6d28d9" stroke-width="1.5" stroke-dasharray="5,3" />
+        <polygon points="383,484 388,494 393,484" fill="#6d28d9" />
+      </g>
+
+      <!-- SKILL → CHECKLIST (vertical down) -->
+      <g id="Arrow_SKILL_to_CHECKLIST">
+        <line x1="668" y1="458" x2="668" y2="484" stroke="#6d28d9" stroke-width="1.5" stroke-dasharray="5,3" />
+        <polygon points="663,484 668,494 673,484" fill="#6d28d9" />
+      </g>
+
+      <!-- SKILL → StarterTemplate (vertical down to reference assets) -->
+      <g id="Arrow_SKILL_to_Template">
+        <line x1="768" y1="458" x2="768" y2="686" stroke="#b45309" stroke-width="1.5" stroke-dasharray="5,3" />
+        <polygon points="763,686 768,696 773,686" fill="#b45309" />
+      </g>
+
+      <!-- CHECKLIST → Makefile (horizontal) -->
+      <g id="Arrow_CHECKLIST_to_Makefile">
+        <line x1="548" y1="575" x2="602" y2="575" stroke="#6d28d9" stroke-width="1.5" />
+        <polygon points="602,570 612,575 602,580" fill="#6d28d9" />
+      </g>
+
+      <!-- Makefile → API profile example (diagonal down-left) -->
+      <g id="Arrow_Makefile_to_ApiProfileFlow">
+        <line x1="688" y1="660" x2="548" y2="686" stroke="#b45309" stroke-width="1.5" stroke-dasharray="5,3" />
+        <polygon points="543,681 543,693 553,687" fill="#b45309" />
+      </g>
+
+      <!-- Makefile → starter template (vertical down) -->
+      <g id="Arrow_Makefile_to_Template">
+        <line x1="828" y1="660" x2="828" y2="686" stroke="#b45309" stroke-width="1.5" stroke-dasharray="5,3" />
+        <polygon points="823,686 828,696 833,686" fill="#b45309" />
+      </g>
+
+    </g>
+
+    <!-- ─── Arrow legend ─── -->
+    <g id="layer-legend">
+      <rect x="228" y="952" width="700" height="20" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1" rx="3" />
+      <line x1="248" y1="962" x2="288" y2="962" stroke="#475569" stroke-width="1.5" />
+      <polygon points="288,958 296,962 288,966" fill="#475569" />
+      <text x="302" y="966" font-family="Segoe UI, Arial" font-size="10" fill="#475569">direct reference</text>
+      <line x1="420" y1="962" x2="460" y2="962" stroke="#475569" stroke-width="1.5" stroke-dasharray="5,3" />
+      <polygon points="460,958 468,962 460,966" fill="#475569" />
+      <text x="474" y="966" font-family="Segoe UI, Arial" font-size="10" fill="#475569">derives from / cross-references</text>
+    </g>
+
+  </g>
+
+</svg>

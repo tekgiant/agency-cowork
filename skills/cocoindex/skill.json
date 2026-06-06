@@ -1,0 +1,8 @@
+﻿{
+  "name": "cocoindex",
+  "bundled": true,
+  "version": "1.0.3",
+  "description": "CocoIndex integration for data indexing",
+  "userDataPaths": [],
+  "userConfigPaths": []
+}

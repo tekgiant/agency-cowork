@@ -1,0 +1,8 @@
+﻿{
+  "name": "excel",
+  "bundled": true,
+  "version": "1.0.3",
+  "description": "Create, inspect, and edit Excel workbooks",
+  "userDataPaths": [],
+  "userConfigPaths": []
+}

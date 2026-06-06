@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "keywords": [
+    "teams",
+    "chat",
+    "channels",
+    "messages",
+    "collaboration"
+  ],
+  "description": "Interact with Microsoft Teams — send messages, read chats/channels, manage members",
+  "author": {
+    "email": "yyou@microsoft.com, nikhilkaul@microsoft.com",
+    "name": "Yang You, Nikhil Kaul"
+  },
+  "name": "teams"
+}

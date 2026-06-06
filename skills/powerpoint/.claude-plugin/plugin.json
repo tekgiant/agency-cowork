@@ -1,0 +1,9 @@
+{
+  "name": "powerpoint",
+  "version": "2.0.0",
+  "description": "Dual-engine PowerPoint skill — pptxGenJS for creating new decks with rich visuals, python-pptx for editing existing files with DRM handling",
+  "author": {
+    "name": "Yang You, Nikhil Kaul",
+    "email": "yyou@microsoft.com, nikhilkaul@microsoft.com"
+  }
+}

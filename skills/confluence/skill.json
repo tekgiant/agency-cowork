@@ -1,0 +1,8 @@
+﻿{
+  "name": "confluence",
+  "bundled": true,
+  "version": "1.0.3",
+  "description": "Browse, search, create, and edit Confluence wiki pages",
+  "userDataPaths": [],
+  "userConfigPaths": []
+}

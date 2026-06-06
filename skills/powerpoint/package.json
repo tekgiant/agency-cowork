@@ -1,0 +1,11 @@
+{
+  "name": "agency-cowork-powerpoint",
+  "version": "2.0.0",
+  "private": true,
+  "description": "pptxGenJS dependencies for the PowerPoint creation engine",
+  "dependencies": {
+    "pptxgenjs": "^3.12.0",
+    "react-icons": "^5.4.0",
+    "sharp": "^0.33.0"
+  }
+}

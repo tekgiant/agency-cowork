@@ -1,0 +1,8 @@
+﻿{
+  "name": "calendar",
+  "bundled": true,
+  "version": "1.0.3",
+  "description": "Manage Outlook calendar events, meetings, and availability",
+  "userDataPaths": [],
+  "userConfigPaths": []
+}

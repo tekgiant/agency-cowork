@@ -1,0 +1,114 @@
+#!/bin/bash
+# pre-commit hook — block commits containing secrets or personal data
+#
+# Install: copy or symlink to .git/hooks/pre-commit
+#   cp scripts/pre-commit .git/hooks/pre-commit
+#   chmod +x .git/hooks/pre-commit  (macOS/Linux)
+#
+# On Windows (Git Bash runs hooks via sh):
+#   copy scripts\pre-commit .git\hooks\pre-commit
+
+RED='\033[0;31m'
+YELLOW='\033[1;33m'
+NC='\033[0m' # No Color
+
+BLOCKED=0
+
+# --- Check for secrets in staged files ---
+
+# Patterns that indicate secrets or credentials
+SECRET_PATTERNS=(
+    # API keys and tokens (generic patterns)
+    '[A-Za-z0-9+/]{40,}'           # Base64-like strings 40+ chars (catches most API keys)
+    'AZURE_OPENAI_API_KEY=[^y]'    # Actual key set (not the placeholder "your-api-key-here")
+    'Bearer [A-Za-z0-9.+/_~-]+'   # Bearer tokens (BSD grep: hyphen must be last in class)
+    'eyJ[A-Za-z0-9_-]+'           # JWT tokens (BSD grep: hyphen must be last in class)
+
+    # Azure / Microsoft specific
+    'cognitiveservices\.azure\.com' # Azure Cognitive Services endpoints (should be placeholders)
+
+    # Generic secret patterns
+    'password[[:space:]]*[:=][[:space:]]*[^[:space:]]+' # password = <value> (POSIX classes for BSD compat)
+    'secret[[:space:]]*[:=][[:space:]]*[^[:space:]]+'   # secret = <value>
+    'private_key'                   # Private keys
+    'BEGIN .* KEY'                  # PEM-encoded keys (simplified — no literal dashes that confuse BSD grep)
+)
+
+# Files to skip (binary, gitkeep, etc.)
+SKIP_PATTERN='\.gitkeep$|\.png$|\.jpg$|\.gif$|\.ico$|\.woff$|\.ttf$|\.pyc$|package-lock\.json$'
+
+echo "🔍 Pre-commit: Scanning for secrets..."
+
+# Get list of staged files (added or modified)
+STAGED_FILES=$(git diff --cached --name-only --diff-filter=ACM)
+
+if [ -z "$STAGED_FILES" ]; then
+    exit 0
+fi
+
+for file in $STAGED_FILES; do
+    # Skip binary/non-text files
+    if echo "$file" | grep -qE "$SKIP_PATTERN"; then
+        continue
+    fi
+
+    # Skip .env.example (it's supposed to have placeholder patterns)
+    if [ "$file" = ".env.example" ]; then
+        continue
+    fi
+
+    # Skip security scripts, setup scripts, installation docs, and test files (they contain example patterns by definition)
+    if echo "$file" | grep -qE '^scripts/(pre-commit|security-audit|setup)|^installation\.md|^threatmodel\.md|^tests/|^ui/build\.md|^skills/.*/README\.md|^TESTING-'; then
+        continue
+    fi
+
+    # Known false positives — public Microsoft URLs and config constants
+    ALLOWLIST='registrar/prod|trouter\.teams\.microsoft|teams\.cloud\.microsoft|chatsvc|go-msit\.trouter|cdnjs\.cloudflare\.com'
+
+    # Check each secret pattern
+    for pattern in "${SECRET_PATTERNS[@]}"; do
+        MATCHES=$(git diff --cached -- "$file" | grep '^+' | grep -v '^+++' | grep -iE -- "$pattern" | grep -vE -- "$ALLOWLIST" 2>/dev/null)
+        if [ -n "$MATCHES" ]; then
+            echo -e "${RED}❌ BLOCKED: Potential secret found in ${file}${NC}"
+            echo -e "${YELLOW}   Pattern: ${pattern}${NC}"
+            echo "$MATCHES" | head -3 | sed 's/^/   /'
+            BLOCKED=1
+        fi
+    done
+done
+
+# --- Check for .env files being committed ---
+
+for file in $STAGED_FILES; do
+    if echo "$file" | grep -qE '^\.env$|^\.env\.local$|^\.env\.production$'; then
+        echo -e "${RED}❌ BLOCKED: Environment file staged for commit: ${file}${NC}"
+        echo "   Use .env.example for templates. Actual .env files must stay gitignored."
+        BLOCKED=1
+    fi
+done
+
+# --- Check for large files (>1MB) ---
+
+for file in $STAGED_FILES; do
+    if [ -f "$file" ]; then
+        SIZE=$(wc -c < "$file" 2>/dev/null | tr -d ' ')
+        if [ -n "$SIZE" ] && [ "$SIZE" -gt 1048576 ]; then
+            SIZE_MB=$(echo "scale=1; $SIZE / 1048576" | bc 2>/dev/null || echo ">1")
+            echo -e "${RED}❌ BLOCKED: Large file (${SIZE_MB}MB): ${file}${NC}"
+            echo "   Files over 1MB should not be committed. Use .gitignore or Git LFS."
+            BLOCKED=1
+        fi
+    fi
+done
+
+# --- Result ---
+
+if [ "$BLOCKED" -ne 0 ]; then
+    echo ""
+    echo -e "${RED}Commit blocked. Fix the issues above, then try again.${NC}"
+    echo "To bypass (use with caution): git commit --no-verify"
+    exit 1
+fi
+
+echo "✅ Pre-commit: No secrets detected."
+exit 0

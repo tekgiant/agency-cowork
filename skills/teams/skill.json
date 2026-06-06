@@ -1,0 +1,13 @@
+﻿{
+  "name": "teams",
+  "bundled": true,
+  "version": "1.0.3",
+  "description": "Microsoft Teams messaging, channels, and chat management",
+  "userDataPaths": [
+    "cache",
+    "logs"
+  ],
+  "userConfigPaths": [
+    "monitor/monitor-config.json"
+  ]
+}

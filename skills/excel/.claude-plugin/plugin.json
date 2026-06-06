@@ -1,0 +1,9 @@
+{
+  "name": "excel",
+  "version": "1.0.0",
+  "description": "Create and edit Excel workbooks with configurable branding",
+  "author": {
+    "name": "Yang You, Nikhil Kaul",
+    "email": "yyou@microsoft.com, nikhilkaul@microsoft.com"
+  }
+}

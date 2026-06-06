@@ -1,0 +1,16 @@
+{
+  "name": "confluence",
+  "version": "1.0.0",
+  "description": "Browse, search, create, and edit Confluence wiki pages via Playwright-based SAML SSO authentication",
+  "keywords": [
+    "confluence",
+    "wiki",
+    "documentation",
+    "knowledge-base",
+    "atlassian"
+  ],
+  "author": {
+    "name": "Yang You, Nikhil Kaul",
+    "email": "yyou@microsoft.com, nikhilkaul@microsoft.com"
+  }
+}

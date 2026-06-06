@@ -1,0 +1,106 @@
+{
+  "A": {
+    "name": "Organic Tech",
+    "identity": "Clinical Boutique — a bridge between a biological research lab and an avant-garde luxury magazine",
+    "palette": {
+      "primary": "#2E4036",
+      "accent": "#CC5833",
+      "background": "#F2F0E9",
+      "dark": "#1A1A1A"
+    },
+    "typography": {
+      "heading": "Plus Jakarta Sans",
+      "headingAlt": "Outfit",
+      "drama": "Cormorant Garamond",
+      "data": "IBM Plex Mono",
+      "googleFonts": "family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Outfit:wght@400;500;600;700&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400;1,600&family=IBM+Plex+Mono:wght@400;500"
+    },
+    "imageMood": ["dark forest", "organic textures", "moss", "ferns", "laboratory glassware"],
+    "heroPattern": {
+      "line1Template": "{concept} is the",
+      "line2Template": "{power}.",
+      "line1Style": "Bold Sans",
+      "line2Style": "Massive Serif Italic"
+    },
+    "unsplashHero": "https://images.unsplash.com/photo-1518531933037-91b2f5f229cc?w=1920&q=80",
+    "unsplashTexture": "https://images.unsplash.com/photo-1470058869958-2a77cb35c8e9?w=800&q=80"
+  },
+  "B": {
+    "name": "Midnight Luxe",
+    "identity": "Dark Editorial — a private members' club meets a high-end watchmaker's atelier",
+    "palette": {
+      "primary": "#0D0D12",
+      "accent": "#C9A84C",
+      "background": "#FAF8F5",
+      "dark": "#2A2A35"
+    },
+    "typography": {
+      "heading": "Inter",
+      "headingAlt": "Inter",
+      "drama": "Playfair Display",
+      "data": "JetBrains Mono",
+      "googleFonts": "family=Inter:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&family=JetBrains+Mono:wght@400;500"
+    },
+    "imageMood": ["dark marble", "gold accents", "architectural shadows", "luxury interiors"],
+    "heroPattern": {
+      "line1Template": "{aspirational} meets",
+      "line2Template": "{precision}.",
+      "line1Style": "Bold Sans",
+      "line2Style": "Massive Serif Italic"
+    },
+    "unsplashHero": "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?w=1920&q=80",
+    "unsplashTexture": "https://images.unsplash.com/photo-1553356084-58ef4a67b2a7?w=800&q=80"
+  },
+  "C": {
+    "name": "Brutalist Signal",
+    "identity": "Raw Precision — a control room for the future, no decoration, pure information density",
+    "palette": {
+      "primary": "#E8E4DD",
+      "accent": "#E63B2E",
+      "background": "#F5F3EE",
+      "dark": "#111111"
+    },
+    "typography": {
+      "heading": "Space Grotesk",
+      "headingAlt": "Space Grotesk",
+      "drama": "DM Serif Display",
+      "data": "Space Mono",
+      "googleFonts": "family=Space+Grotesk:wght@400;500;600;700&family=DM+Serif+Display:ital,wght@0,400;1,400&family=Space+Mono:wght@400;700"
+    },
+    "imageMood": ["concrete", "brutalist architecture", "raw materials", "industrial"],
+    "heroPattern": {
+      "line1Template": "{verb} the",
+      "line2Template": "{system}.",
+      "line1Style": "Bold Sans",
+      "line2Style": "Massive Serif Italic"
+    },
+    "unsplashHero": "https://images.unsplash.com/photo-1464146072230-91cabc968266?w=1920&q=80",
+    "unsplashTexture": "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=800&q=80"
+  },
+  "D": {
+    "name": "Vapor Clinic",
+    "identity": "Neon Biotech — a genome sequencing lab inside a Tokyo nightclub",
+    "palette": {
+      "primary": "#0A0A14",
+      "accent": "#7B61FF",
+      "background": "#F0EFF4",
+      "dark": "#18181B"
+    },
+    "typography": {
+      "heading": "Sora",
+      "headingAlt": "Sora",
+      "drama": "Instrument Serif",
+      "data": "Fira Code",
+      "googleFonts": "family=Sora:wght@400;500;600;700;800&family=Instrument+Serif:ital,wght@0,400;1,400&family=Fira+Code:wght@400;500"
+    },
+    "imageMood": ["bioluminescence", "dark water", "neon reflections", "microscopy"],
+    "heroPattern": {
+      "line1Template": "{tech} beyond",
+      "line2Template": "{boundary}.",
+      "line1Style": "Bold Sans",
+      "line2Style": "Massive Serif Italic"
+    },
+    "unsplashHero": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1920&q=80",
+    "unsplashTexture": "https://images.unsplash.com/photo-1507400492013-162706c8c05e?w=800&q=80"
+  }
+}

@@ -1,0 +1,8 @@
+﻿{
+  "name": "ado",
+  "bundled": true,
+  "version": "1.0.3",
+  "description": "Azure DevOps integration for work items and queries",
+  "userDataPaths": [],
+  "userConfigPaths": []
+}

@@ -1,0 +1,26 @@
+/** @type {import('tailwindcss').Config} */
+// TEMPLATE — replace {{PRIMARY}}, {{ACCENT}}, {{BACKGROUND}}, {{DARK}},
+// {{FONT_HEADING}}, {{FONT_DRAMA}}, {{FONT_DATA}} with preset values
+export default {
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
+  theme: {
+    extend: {
+      colors: {
+        primary: "{{PRIMARY}}",
+        accent: "{{ACCENT}}",
+        surface: "{{BACKGROUND}}",
+        dark: "{{DARK}}",
+      },
+      fontFamily: {
+        heading: ['"{{FONT_HEADING}}"', "sans-serif"],
+        drama: ['"{{FONT_DRAMA}}"', "serif"],
+        data: ['"{{FONT_DATA}}"', "monospace"],
+      },
+      borderRadius: {
+        system: "2rem",
+        "system-lg": "3rem",
+      },
+    },
+  },
+  plugins: [],
+};

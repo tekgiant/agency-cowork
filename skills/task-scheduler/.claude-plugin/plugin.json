@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0",
+  "keywords": [
+    "scheduler",
+    "tasks",
+    "recurring",
+    "automation",
+    "cron"
+  ],
+  "description": "Schedule and manage one-time and recurring tasks that invoke Agency Copilot",
+  "author": {
+    "email": "yyou@microsoft.com, nikhilkaul@microsoft.com",
+    "name": "Yang You, Nikhil Kaul"
+  },
+  "name": "task-scheduler"
+}

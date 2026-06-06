@@ -1,0 +1,18 @@
+{
+  "version": "1.0.0",
+  "keywords": [
+    "sharepoint",
+    "onedrive",
+    "upload",
+    "download",
+    "document",
+    "file",
+    "knowledgebase"
+  ],
+  "description": "Download and upload files between local machine and SharePoint/OneDrive via Graph API, with optional Markdown conversion",
+  "author": {
+    "email": "yyou@microsoft.com, nikhilkaul@microsoft.com",
+    "name": "Yang You, Nikhil Kaul"
+  },
+  "name": "sharepoint"
+}

@@ -1,0 +1,8 @@
+﻿{
+  "name": "onepdm",
+  "bundled": true,
+  "version": "1.0.3",
+  "description": "Search and download specifications from OnePDM",
+  "userDataPaths": [],
+  "userConfigPaths": []
+}

@@ -1,0 +1,9 @@
+{
+  "name": "ado",
+  "version": "1.0.0",
+  "description": "General-purpose Azure DevOps work item query, search, and update skill. Supports WIQL search, saved queries, filtered listing, and write operations (create, assign, comment, set-field, reparent, link).",
+  "author": {
+    "name": "Yang You, Nikhil Kaul",
+    "email": "yyou@microsoft.com, nikhilkaul@microsoft.com"
+  }
+}

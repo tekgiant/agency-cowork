@@ -1,0 +1,16 @@
+{
+  "name": "dashboard",
+  "description": "Interactive, live-updating knowledgebase dashboard with AI action controls",
+  "version": "0.1.0",
+  "keywords": [
+    "dashboard",
+    "knowledgebase",
+    "interactive",
+    "live-update"
+  ],
+  "author": {
+    "name": "Yang You, Brent Allen (SCHIE)",
+    "email": "yyou@microsoft.com, brenta@microsoft.com"
+  },
+  "license": "MIT"
+}

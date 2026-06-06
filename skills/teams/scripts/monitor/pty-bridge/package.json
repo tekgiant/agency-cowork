@@ -1,0 +1,13 @@
+{
+  "name": "agency-pty-bridge",
+  "version": "1.0.0",
+  "description": "Named-pipe PTY bridge for Teams monitor — manages persistent Agency CLI sessions",
+  "main": "bridge.js",
+  "private": true,
+  "scripts": {
+    "start": "node bridge.js"
+  },
+  "dependencies": {
+    "@homebridge/node-pty-prebuilt-multiarch": "^0.13.1"
+  }
+}

@@ -25,25 +25,27 @@ PROJECT = "OneITVSO"
 SEED_USER = "9d6096ca-c31a-469a-b0b6-e202daf4f972"
 HEADERS = {"Authorization": f"Bearer {TOKEN}", "Content-Type": "application/json"}
 
-def api_get(url, retries=2):
+def api_get(url, retries=5):
     for attempt in range(retries + 1):
         try:
             req = Request(url, headers=HEADERS)
-            with urlopen(req, timeout=30) as resp:
+            with urlopen(req, timeout=60) as resp:
                 return json.loads(resp.read())
         except HTTPError as e:
-            if e.code == 429 and attempt < retries:
+            if e.code in (429, 500, 502, 503, 504) and attempt < retries:
                 wait = int(e.headers.get("Retry-After", "5"))
-                print(f"  Rate limited, waiting {wait}s...")
+                print(f"  HTTP {e.code}, retrying in {wait}s (attempt {attempt + 1}/{retries + 1})...")
                 time.sleep(wait)
                 continue
             if e.code in (404, 403) and attempt == retries:
                 print(f"  WARN: {e.code} for {url[:120]}")
                 return None
             raise
-        except URLError as e:
+        except (URLError, ConnectionResetError, TimeoutError, OSError) as e:
             if attempt < retries:
-                time.sleep(2)
+                wait = 2 ** attempt
+                print(f"  Transient request error: {e!r}, retrying in {wait}s (attempt {attempt + 1}/{retries + 1})...")
+                time.sleep(wait)
                 continue
             raise
 

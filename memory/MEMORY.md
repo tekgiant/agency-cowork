@@ -1,8 +1,8 @@
 # Agency Cowork Memory
 
 ## Active Programs
-- Daily memory maintenance and QMD index hygiene are the active program facts for this session (verified through 2026-06-06).
-- Maintenance completed on 2026-06-07: QMD text re-index refreshed, local SentenceTransformer/BGE embeddings remained the active path, and Azure OpenAI embeddings remained disabled.
+- Daily memory maintenance and QMD index hygiene are the active program facts for this session (verified through 2026-06-12).
+- Maintenance completed on 2026-06-12: QMD text re-index refreshed, local SentenceTransformer/BGE embeddings remained the active path, and Azure OpenAI embeddings remained disabled.
 - No additional permanent milestones were added beyond the current maintenance cycle.
 
 ## Key Contacts

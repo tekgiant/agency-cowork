@@ -105,3 +105,7 @@ The entries were routine QMD re-index and placeholder MEMORY.md updates; no stal
 
 ## 2026-06-07
 Daily memory maintenance completed on 2026-06-07. The current 7-day compaction review verified the archive summary and refreshed the QMD text index. Azure embeddings remained disabled in this environment.
+
+## 2026-05-30 to 2026-06-04
+Daily maintenance on 2026-06-12 reviewed the 7-day compaction window for 2026-05-30 through 2026-06-04.
+The entries were routine QMD re-index and placeholder MEMORY.md updates; no stale contacts or milestones required changes.

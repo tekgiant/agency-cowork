@@ -126,3 +126,9 @@ The entries were routine QMD re-index and placeholder MEMORY.md updates; no stal
 ## 2026-06-01
 - Daily maintenance compacted the 2026-05-25 log and completed a QMD re-index across the indexed collections.
 - MEMORY.md still had no substantive facts to update, and Azure embeddings were not configured for this run.
+
+## 2026-06-02
+- Daily maintenance compacted the 2026-05-26 log and completed a QMD re-index over the active knowledgebase collections.
+- MEMORY.md remained placeholder-only, and no stale facts required updating.
+- Azure embeddings were skipped because the environment did not have the provider configured.
+

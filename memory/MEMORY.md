@@ -16,3 +16,4 @@
 
 ## Notes
 - Stable facts belong here; temporary or episodic details belong in memory/DailyLogs/.
+- A weekly MEMORY.md review was completed on 2026-06-24 to capture the current maintenance state for follow-up commits.

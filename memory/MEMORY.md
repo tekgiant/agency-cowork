@@ -16,5 +16,3 @@
 
 ## Notes
 - Stable facts belong here; temporary or episodic details belong in memory/DailyLogs/.
-
-

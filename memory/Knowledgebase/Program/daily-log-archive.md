@@ -132,3 +132,9 @@ The entries were routine QMD re-index and placeholder MEMORY.md updates; no stal
 - MEMORY.md remained placeholder-only, and no stale facts required updating.
 - Azure embeddings were skipped because the environment did not have the provider configured.
 
+
+## 2026-06-12
+Daily memory maintenance ran successfully. QMD text re-index and embedding refresh completed; all indexes healthy.
+
+## 2026-06-16
+Daily memory maintenance completed: archive compaction, MEMORY.md review, and QMD re-index via the memory-flush script. Azure embeddings remained disabled (provider != azure_openai).

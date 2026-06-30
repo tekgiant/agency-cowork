@@ -1,8 +1,8 @@
 # Agency Cowork Memory
 
 ## Active Programs
-- Weekly memory maintenance and QMD index hygiene remain active as of 2026-06-28.
-- The 2026-06-28 maintenance review confirmed the local QMD re-index and memory-flush workflow completed successfully.
+- Weekly memory maintenance and QMD index hygiene remain active as of 2026-06-30.
+- The 2026-06-28 maintenance review confirmed the local QMD re-index and memory-flush workflow completed successfully; the 2026-06-30 weekly review found no new milestones or program changes.
 - No new permanent milestones were added during this review cycle.
 
 ## Key Contacts
@@ -16,4 +16,4 @@
 
 ## Notes
 - Stable facts belong here; temporary or episodic details belong in memory/DailyLogs/.
-- A weekly MEMORY.md review was completed on 2026-06-28 to capture the current maintenance state for follow-up commits.
+- The weekly MEMORY.md review was completed on 2026-06-30; the prior review on 2026-06-28 captured the current maintenance state.

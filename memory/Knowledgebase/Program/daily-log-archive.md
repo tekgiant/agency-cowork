@@ -4,7 +4,7 @@ Compacted summaries of daily logs older than 7 days.
 
 ---
 
-*Last compaction: 2026-06-07 (daily-memory-maintenance). The current 7-day compaction review window was verified on 2026-06-07 and no additional stale facts were found.*
+*Last compaction: 2026-07-07 (daily-memory-maintenance). Compacted the 2026-06-24 and 2026-06-28 daily logs (both older than 7 days) into this archive; no additional stale facts were found.*
 
 ## 2026-04-29
 Initial daily memory maintenance run. QMD re-index and SentenceTransformer embedding refresh performed (40/40 chunks, 38 docs). Fixed missing sentence-transformers pip dependency.
@@ -138,3 +138,10 @@ Daily memory maintenance ran successfully. QMD text re-index and embedding refre
 
 ## 2026-06-16
 Daily memory maintenance completed: archive compaction, MEMORY.md review, and QMD re-index via the memory-flush script. Azure embeddings remained disabled (provider != azure_openai).
+
+
+## 2026-06-24
+Daily QMD maintenance. QMD text index refreshed and verified via `qmd search program status`; local sentence-transformer (bge-small-en-v1.5) embeddings regenerated successfully. Azure OpenAI embeddings skipped (AZURE_OPENAI_API_KEY not configured).
+
+## 2026-06-28
+Daily memory maintenance completed. Compacted the 2026-06-12 and 2026-06-16 logs into the archive and updated MEMORY.md maintenance-state dates. Ran memory-flush; QMD text index refreshed and Azure embeddings remained disabled (provider != azure_openai).

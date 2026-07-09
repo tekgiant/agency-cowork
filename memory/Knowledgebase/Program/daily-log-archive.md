@@ -4,7 +4,7 @@ Compacted summaries of daily logs older than 7 days.
 
 ---
 
-*Last compaction: 2026-07-07 (daily-memory-maintenance). Compacted the 2026-06-24 and 2026-06-28 daily logs (both older than 7 days) into this archive; no additional stale facts were found.*
+*Last compaction: 2026-07-09 (daily-memory-maintenance). Compacted the 2026-06-30 daily log (older than 7 days) into this archive; no additional stale facts were found.*
 
 ## 2026-04-29
 Initial daily memory maintenance run. QMD re-index and SentenceTransformer embedding refresh performed (40/40 chunks, 38 docs). Fixed missing sentence-transformers pip dependency.
@@ -145,3 +145,6 @@ Daily QMD maintenance. QMD text index refreshed and verified via `qmd search pro
 
 ## 2026-06-28
 Daily memory maintenance completed. Compacted the 2026-06-12 and 2026-06-16 logs into the archive and updated MEMORY.md maintenance-state dates. Ran memory-flush; QMD text index refreshed and Azure embeddings remained disabled (provider != azure_openai).
+
+## 2026-06-30
+Daily memory maintenance run. No daily logs older than 7 days existed at that time, so nothing was appended to the archive. Updated MEMORY.md maintenance-state dates for the 2026-06-30 cycle. Ran memory-flush; QMD text index refreshed (4 collections, 39 docs) and Azure embeddings remained disabled (provider != azure_openai).

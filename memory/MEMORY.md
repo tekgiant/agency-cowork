@@ -1,7 +1,7 @@
 # Agency Cowork Memory
 
 ## Active Programs
-- Weekly memory maintenance and QMD index hygiene remain active as of 2026-07-07.
+- Weekly memory maintenance and QMD index hygiene remain active as of 2026-07-09.
 - The most recent maintenance activity (2026-07-07 daily maintenance: QMD text re-index) completed successfully; no new milestones or program changes were identified.
 - No new permanent milestones were added during this review cycle.
 
@@ -16,4 +16,4 @@
 
 ## Notes
 - Stable facts belong here; temporary or episodic details belong in memory/DailyLogs/.
-- The latest weekly MEMORY.md review was completed on 2026-07-06; the most recent daily maintenance logs were 2026-07-02 (QMD re-index/embedding refresh) and 2026-07-07 (daily maintenance: log compaction + QMD re-index).
+- The latest weekly MEMORY.md review was completed on 2026-07-09; the most recent daily maintenance logs were 2026-07-02 (QMD re-index/embedding refresh) and 2026-07-07 (daily maintenance: log compaction + QMD re-index).

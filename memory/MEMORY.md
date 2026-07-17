@@ -10,8 +10,8 @@
 - The contact roster remains empty until a named stakeholder or teammate is added to memory.
 
 ## Tooling and Integrations
-- Default embedding provider remains sentence_transformer with BAAI/bge-small-en-v1.5 (384 dims); the QMD index currently covers 39 documents (39 chunks).
-- Azure OpenAI refresh remains available as an override path (skills/qmd-memory/scripts/azure-embed.py) but stays disabled in the current environment, falling back to bge-small-en-v1.5.
+- Default embedding provider remains sentence_transformer with BAAI/bge-small-en-v1.5 (384 dims); the QMD index currently covers 39 documents (41 chunks).
+- Azure OpenAI refresh remains available as an override path (skills/qmd-memory/scripts/azure-embed.py) and was last exercised on 2026-07-14 (41/41 chunks regenerated); scheduled maintenance keeps it disabled (provider != azure_openai), falling back to bge-small-en-v1.5.
 - The current workflow uses the local QMD index refresh process and repository-based memory maintenance.
 
 ## Notes

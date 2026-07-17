@@ -155,3 +155,6 @@ Daily memory maintenance. Ran QMD text re-index (4 collections, 39 docs, all unc
 
 ## 2026-07-07
 Daily memory maintenance run. Compacted the 2026-06-24 and 2026-06-28 logs into the archive and updated MEMORY.md maintenance-state dates. Ran memory-flush; QMD text index refreshed across 4 collections and Azure embeddings remained disabled (provider != azure_openai).
+
+## 2026-07-09
+Daily memory maintenance run. Compacted the 2026-06-30 log into the archive and refreshed MEMORY.md maintenance-state dates for the 2026-07-09 cycle. Ran memory-flush; the QMD text index was refreshed across 4 collections and local bge-small-en-v1.5 embeddings were regenerated (41/41 chunks, 39 docs). Azure embeddings remained disabled (provider != azure_openai).

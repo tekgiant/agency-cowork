@@ -4,7 +4,7 @@ Compacted summaries of daily logs older than 7 days.
 
 ---
 
-*Last compaction: 2026-07-15 (daily-memory-maintenance). Compacted the 2026-07-07 daily log (older than 7 days) into this archive; no additional stale facts were found.*
+*Last compaction: 2026-07-28 (daily-memory-maintenance). Compacted the 2026-07-14 through 2026-07-17 daily logs (all older than 7 days; boundary 2026-07-21) into this archive; no additional stale facts were found.*
 
 ## 2026-04-29
 Initial daily memory maintenance run. QMD re-index and SentenceTransformer embedding refresh performed (40/40 chunks, 38 docs). Fixed missing sentence-transformers pip dependency.
@@ -158,3 +158,15 @@ Daily memory maintenance run. Compacted the 2026-06-24 and 2026-06-28 logs into 
 
 ## 2026-07-09
 Daily memory maintenance run. Compacted the 2026-06-30 log into the archive and refreshed MEMORY.md maintenance-state dates for the 2026-07-09 cycle. Ran memory-flush; the QMD text index was refreshed across 4 collections and local bge-small-en-v1.5 embeddings were regenerated (41/41 chunks, 39 docs). Azure embeddings remained disabled (provider != azure_openai).
+
+## 2026-07-14
+Daily memory maintenance (multiple runs). Compacted the 2026-07-02 log into the archive and refreshed MEMORY.md maintenance-state dates. Ran QMD text re-index (4 collections, 39 docs) and regenerated local bge-small-en-v1.5 embeddings (41/41 chunks); verified via qmd search.
+
+## 2026-07-15
+Daily memory maintenance. Compacted the 2026-07-07 log into the archive and updated MEMORY.md maintenance-state dates. Ran memory-flush; QMD text index refreshed across 4 collections and Azure embeddings remained disabled (provider != azure_openai).
+
+## 2026-07-16
+Daily memory maintenance. No daily logs were older than 7 days (boundary 2026-07-09), so nothing was appended at that time. Updated MEMORY.md maintenance-state dates; QMD text index refreshed (39 docs) and Azure embeddings remained disabled (provider != azure_openai).
+
+## 2026-07-17
+Daily memory maintenance. Compacted the 2026-07-09 log into the archive and refreshed MEMORY.md maintenance-state dates. Ran memory-flush; QMD text index refreshed across 4 collections and Azure embeddings remained disabled (provider != azure_openai).

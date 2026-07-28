@@ -6,12 +6,13 @@
 - No new permanent milestones were added during this review cycle.
 
 ## Key Contacts
-- No new contacts were documented this week.
-- The contact roster remains empty until a named stakeholder or teammate is added to memory.
+- No new contacts or role changes were documented in this week's daily logs.
+- The named-stakeholder contact roster in MEMORY.md remains empty. Team/reviewer identities are maintained separately via the ADO profile refresh workflow (memory/Knowledgebase/ado-profile-data.json).
 
 ## Tooling and Integrations
 - Default embedding provider remains sentence_transformer with BAAI/bge-small-en-v1.5 (384 dims); the QMD index currently covers 39 documents (39 chunks).
 - Azure OpenAI refresh remains available as an override path (skills/qmd-memory/scripts/azure-embed.py) but stays disabled in the current environment (provider != azure_openai), falling back to bge-small-en-v1.5.
+- ADO profile refresh (scripts/ado_profile_refresh.py) periodically rebuilds the team/reviewer roster from Azure DevOps (MicrosoftIT/OneITVSO, 180-day window) into memory/Knowledgebase/ado-profile-data.json as part of recurring maintenance.
 - The current workflow uses the local QMD index refresh process and repository-based memory maintenance.
 
 ## Notes

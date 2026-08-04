@@ -1,10 +1,10 @@
-﻿# Daily Log Archive
+# Daily Log Archive
 
 Compacted summaries of daily logs older than 7 days.
 
 ---
 
-*Last compaction: 2026-07-28 (daily-memory-maintenance). Compacted the 2026-07-14 through 2026-07-17 daily logs (all older than 7 days; boundary 2026-07-21) into this archive; no additional stale facts were found.*
+*Last compaction review: 2026-08-04 (daily-memory-maintenance). No daily logs were older than 7 days (cutoff 2026-07-28), so no entries were archived; no additional stale facts were found.*
 
 ## 2026-04-29
 Initial daily memory maintenance run. QMD re-index and SentenceTransformer embedding refresh performed (40/40 chunks, 38 docs). Fixed missing sentence-transformers pip dependency.

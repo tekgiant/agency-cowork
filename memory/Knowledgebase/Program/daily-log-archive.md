@@ -4,7 +4,7 @@ Compacted summaries of daily logs older than 7 days.
 
 ---
 
-*Last compaction review: 2026-08-06 (daily-memory-maintenance). No daily logs were older than 7 days (cutoff 2026-07-30), so no entries were archived. No additional stale facts were found.*
+*Last compaction review: 2026-08-06 (daily-memory-maintenance). Archived the 2026-07-28 daily log under the 7-day retention rule. No additional stale facts were found.*
 
 
 

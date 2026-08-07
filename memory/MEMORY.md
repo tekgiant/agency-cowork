@@ -1,12 +1,12 @@
-﻿# Agency Cowork Memory
+# Agency Cowork Memory
 
 ## Active Programs
-- Weekly memory maintenance and QMD index hygiene remain active as of 2026-08-06.
-- The most recent maintenance activity (2026-08-06 daily maintenance: archived the 2026-07-28 log under the 7-day retention rule) completed successfully; no new milestones or program changes were identified.
+- Weekly memory maintenance and QMD index hygiene remain active as of 2026-08-07.
+- The most recent maintenance activity (2026-08-07 daily maintenance: archived the 2026-07-30 log under the 7-day retention rule) completed successfully; no new milestones or program changes were identified.
 - No new permanent milestones were added during this review cycle.
 
 ## Key Contacts
-- No new contacts or role changes were identified during the 2026-08-06 maintenance review.
+- No new contacts or role changes were identified during the 2026-08-07 maintenance review.
 - The named-stakeholder contact roster in MEMORY.md remains empty. Team/reviewer identities are maintained separately via the ADO profile refresh workflow (memory/Knowledgebase/ado-profile-data.json).
 
 ## Tooling and Integrations
@@ -17,4 +17,5 @@
 
 ## Notes
 - Stable facts belong here; temporary or episodic details belong in memory/DailyLogs/.
-- The latest MEMORY.md review was completed on 2026-08-06; the QMD text index was refreshed during the same maintenance cycle.
+- The latest MEMORY.md review was completed on 2026-08-07; the QMD text index was refreshed during the same maintenance cycle.
+

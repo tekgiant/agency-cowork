@@ -4,7 +4,7 @@ Compacted summaries of daily logs older than 7 days.
 
 ---
 
-*Last compaction review: 2026-08-07 (daily-memory-maintenance). Archived the 2026-07-30 daily log under the 7-day retention rule. No additional stale facts were found.*
+*Last compaction review: 2026-09-01 (daily-memory-maintenance). Archived the 2026-08-15 daily log under the 7-day retention rule (cutoff: 2026-08-25). No stale milestones or contact-role changes were found.*
 
 
 
@@ -182,4 +182,22 @@ Daily memory maintenance. Compacted the 2026-07-09 log into the archive and refr
 ## 2026-07-30
 Completed a full QMD text re-index and local bge-small-en-v1.5 embedding refresh across 39 documents (41 chunks), with search verification succeeding.
 The scheduled maintenance review found no stale contacts or completed milestones; no logs then exceeded the 7-day retention window.
+## 2026-08-03
+Completed a full QMD text re-index and regenerated the configured embeddings.
+Verified the refreshed index with a program-status search.
 
+## 2026-08-04
+Daily maintenance found no logs beyond the retention cutoff at that time and no changed contacts, roles, or milestones.
+QMD was re-indexed and the configured local bge-small-en-v1.5 embeddings were refreshed across 39 documents.
+
+## 2026-08-06
+Daily maintenance compacted the 2026-07-28 log and refreshed the maintenance-state facts in MEMORY.md.
+The QMD text index and configured embeddings were refreshed through the memory maintenance workflow.
+
+## 2026-08-07
+Daily maintenance found no additional logs before the then-current cutoff and no changed contacts, roles, or milestones.
+The QMD text index and configured local SentenceTransformer embeddings were refreshed and verified.
+
+## 2026-08-15
+Daily maintenance compacted four older August logs, reviewed permanent memory for stale facts, and found no milestone or contact-role changes.
+The QMD text index and configured embedding workflow were refreshed.

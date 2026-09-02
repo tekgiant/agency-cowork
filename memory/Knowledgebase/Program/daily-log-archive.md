@@ -4,7 +4,7 @@ Compacted summaries of daily logs older than 7 days.
 
 ---
 
-*Last compaction review: 2026-09-01 (daily-memory-maintenance). Archived the 2026-08-15 daily log under the 7-day retention rule (cutoff: 2026-08-25). No stale milestones or contact-role changes were found.*
+*Last compaction review: 2026-09-02 (daily-memory-maintenance). No daily logs were older than the 7-day retention cutoff (2026-08-26), so no entries were archived. No stale milestones or contact-role changes were found.*
 
 
 

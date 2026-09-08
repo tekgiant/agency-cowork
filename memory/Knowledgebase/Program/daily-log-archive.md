@@ -4,7 +4,7 @@ Compacted summaries of daily logs older than 7 days.
 
 ---
 
-*Last compaction review: 2026-09-04 (daily-memory-maintenance). No daily logs were older than the 7-day retention cutoff (2026-08-28), so no entries were archived. No stale milestones or contact-role changes were found.*
+*Last compaction review: 2026-09-08 (daily-memory-maintenance). The 2026-08-31 log was older than the 7-day retention cutoff (2026-09-01) and was archived. No stale milestones or contact-role changes were found.*
 
 
 
@@ -201,3 +201,7 @@ The QMD text index and configured local SentenceTransformer embeddings were refr
 ## 2026-08-15
 Daily maintenance compacted four older August logs, reviewed permanent memory for stale facts, and found no milestone or contact-role changes.
 The QMD text index and configured embedding workflow were refreshed.
+
+## 2026-08-31
+Daily maintenance refreshed the QMD text index and embeddings and verified program-status search.
+No additional program milestones, contact changes, or blockers were recorded.

@@ -2,7 +2,7 @@
 
 ## Active Programs
 - Weekly memory maintenance and QMD index hygiene remain active as of 2026-09-08.
-- Daily maintenance on 2026-09-08 reviewed logs against the 7-day retention cutoff (2026-09-01).
+- Daily maintenance on 2026-09-08 archived the 2026-08-31 log under the 7-day retention cutoff (2026-09-01).
 - No new permanent milestones were added during this review cycle.
 
 ## Key Contacts
@@ -17,4 +17,4 @@
 
 ## Notes
 - Stable facts belong here; temporary or episodic details belong in memory/DailyLogs/.
-- The latest MEMORY.md review was completed on 2026-09-08; the QMD text index was refreshed during the same maintenance cycle. Azure OpenAI embeddings were skipped because the configured provider is not azure_openai.
+- The latest MEMORY.md review was completed on 2026-09-08; no stale milestones or contact-role changes were identified.

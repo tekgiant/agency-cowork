@@ -4,7 +4,7 @@ Compacted summaries of daily logs older than 7 days.
 
 ---
 
-*Last compaction review: 2026-09-08 (daily-memory-maintenance). The 2026-08-31 daily log was older than the 7-day retention cutoff (2026-09-01) and was archived. No stale milestones or contact-role changes were found.*
+*Last compaction review: 2026-09-11 (daily-memory-maintenance). The 2026-09-01 and 2026-09-02 daily logs were older than the 7-day retention cutoff (2026-09-04) and were archived. No stale milestones or contact-role changes were found.*
 
 
 
@@ -205,3 +205,11 @@ The QMD text index and configured embedding workflow were refreshed.
 ## 2026-08-31
 Daily memory maintenance refreshed the QMD text index and configured embeddings.
 The program-status search was verified after the refresh.
+
+## 2026-09-01
+Daily maintenance compacted the 2026-08-15 log, reviewed permanent memory, and refreshed the QMD text index and configured SentenceTransformer embeddings.
+No stale milestones or contact-role changes were identified; Azure OpenAI embeddings remained disabled because the configured provider was SentenceTransformer.
+
+## 2026-09-02
+Daily maintenance found no additional logs requiring compaction at that time, reviewed permanent memory, and refreshed the QMD text index through memory-flush.ps1.
+No stale milestones or contact-role changes were identified; Azure OpenAI embeddings remained disabled because the configured provider was not Azure OpenAI.
